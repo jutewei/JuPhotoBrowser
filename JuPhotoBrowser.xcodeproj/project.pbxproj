@@ -26,6 +26,7 @@
 		EBE15A751D93C33F0098C6F4 /* JuPhotoOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE15A741D93C33F0098C6F4 /* JuPhotoOverlayView.m */; };
 		EBE15A771D93C4450098C6F4 /* photo_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE15A761D93C4450098C6F4 /* photo_select.png */; };
 		EBE15A791D93C4510098C6F4 /* photo_un_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE15A781D93C4510098C6F4 /* photo_un_select.png */; };
+		EBE15A911D93D7AE0098C6F4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE15A901D93D7AE0098C6F4 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,8 @@
 		EBE15A761D93C4450098C6F4 /* photo_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_select.png; sourceTree = "<group>"; };
 		EBE15A781D93C4510098C6F4 /* photo_un_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_un_select.png; sourceTree = "<group>"; };
 		EBE15A7A1D93CFA10098C6F4 /* JuPhotoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoDelegate.h; sourceTree = "<group>"; };
+		EBE15A8F1D93D7AE0098C6F4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EBE15A901D93D7AE0098C6F4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 		EB2FF4931D9274EB009F1AF4 /* Layout */ = {
 			isa = PBXGroup;
 			children = (
+				EBE15A8F1D93D7AE0098C6F4 /* UIView+Frame.h */,
+				EBE15A901D93D7AE0098C6F4 /* UIView+Frame.m */,
 				EB2FF4941D9274EB009F1AF4 /* JuLayout.h */,
 				EB2FF4951D9274EB009F1AF4 /* JuLayout.m */,
 				EB2FF4961D9274EB009F1AF4 /* UIView+JuConstraint.h */,
@@ -245,6 +250,7 @@
 				EB2FF46E1D925F0C009F1AF4 /* ViewController.m in Sources */,
 				EB2FF46B1D925F0C009F1AF4 /* AppDelegate.m in Sources */,
 				EB2FF4921D926320009F1AF4 /* JuPhotoCollectionVCell.m in Sources */,
+				EBE15A911D93D7AE0098C6F4 /* UIView+Frame.m in Sources */,
 				EB2FF4A21D928CB3009F1AF4 /* JuPhotoCollectionFoot.m in Sources */,
 				EB2FF49D1D9274EB009F1AF4 /* UIView+JuConstraint.m in Sources */,
 				EBE15A751D93C33F0098C6F4 /* JuPhotoOverlayView.m in Sources */,

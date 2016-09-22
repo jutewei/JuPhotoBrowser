@@ -72,24 +72,33 @@
 }
 //获取所有相册
 -(void)juGetAlbums{
-    NSMutableArray *arrAlbums=[NSMutableArray array];
-    PHFetchResult *smartAlbums = [PHAssetCollection fetchAssetCollectionsWithType:PHAssetCollectionTypeSmartAlbum subtype:PHAssetCollectionSubtypeAlbumRegular options:nil];
-    [smartAlbums enumerateObjectsUsingBlock:^(PHAssetCollection * _Nonnull collection, NSUInteger idx, BOOL *stop) {
-        PHFetchResult *assetsFetchResults = [PHAsset fetchAssetsInAssetCollection:collection options:nil];
-        if (assetsFetchResults.count) {
-            [arrAlbums addObject:collection];
-        }
-    }];
-//用户创建的相册
-    PHFetchResult *userAlbums = [PHAssetCollection fetchAssetCollectionsWithType:PHAssetCollectionTypeAlbum subtype:PHAssetCollectionSubtypeSmartAlbumUserLibrary options:nil];
-    [userAlbums enumerateObjectsUsingBlock:^(PHAssetCollection * _Nonnull collection, NSUInteger idx, BOOL * _Nonnull stop) {
-         PHFetchResult *assetsFetchResults = [PHAsset fetchAssetsInAssetCollection:collection options:nil];
-       if (assetsFetchResults.count) {
-            [arrAlbums addObject:collection];
-        }
-    }];
-        ju_ArrList=arrAlbums;
+    [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+        if (status == PHAuthorizationStatusAuthorized) {
 
+            NSMutableArray *arrAlbums=[NSMutableArray array];
+            PHFetchResult *smartAlbums = [PHAssetCollection fetchAssetCollectionsWithType:PHAssetCollectionTypeSmartAlbum subtype:PHAssetCollectionSubtypeAlbumRegular options:nil];
+            [smartAlbums enumerateObjectsUsingBlock:^(PHAssetCollection * _Nonnull collection, NSUInteger idx, BOOL *stop) {
+                PHFetchResult *assetsFetchResults = [PHAsset fetchAssetsInAssetCollection:collection options:nil];
+                if (assetsFetchResults.count) {
+                    [arrAlbums addObject:collection];
+                }
+            }];
+            //用户创建的相册
+            PHFetchResult *userAlbums = [PHAssetCollection fetchAssetCollectionsWithType:PHAssetCollectionTypeAlbum subtype:PHAssetCollectionSubtypeSmartAlbumUserLibrary options:nil];
+            [userAlbums enumerateObjectsUsingBlock:^(PHAssetCollection * _Nonnull collection, NSUInteger idx, BOOL * _Nonnull stop) {
+                PHFetchResult *assetsFetchResults = [PHAsset fetchAssetsInAssetCollection:collection options:nil];
+                if (assetsFetchResults.count) {
+                    [arrAlbums addObject:collection];
+                }
+            }];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                ju_ArrList=arrAlbums;
+                [ju_TableView reloadData];
+
+            });
+        }
+
+    }];
 }
 //是否在iCloud
 -(BOOL)isExist:(PHAsset *)asset{
