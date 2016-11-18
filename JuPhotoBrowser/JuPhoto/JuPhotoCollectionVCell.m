@@ -41,6 +41,7 @@
 }
 -(void)setJu_asset:(PHAsset *)ju_asset{
     _ju_asset=ju_asset;
+    
     PHImageRequestOptions *imageOptions = [[PHImageRequestOptions alloc] init];
     imageOptions.synchronous = YES;
     // 图片原尺寸

@@ -61,8 +61,8 @@
 }
 -(void)setJu_PhotoGroup:(PHAssetCollection *)ju_PhotoGroup{
     _ju_PhotoGroup=ju_PhotoGroup;
-    ju_title.text=[self transformAblumTitle:ju_PhotoGroup.localizedTitle];
-
+    ju_title.text=ju_PhotoGroup.localizedTitle;
+//    [self transformAblumTitle:ju_PhotoGroup.localizedTitle];
 
     PHFetchResult *assetsFetchResults = [PHAsset fetchAssetsInAssetCollection:ju_PhotoGroup options:nil];
 
@@ -82,6 +82,13 @@
     ju_subTitle.text=[NSString stringWithFormat:@"（%lu）",(unsigned long)assetsFetchResults.count];
 
 }
+
+/**
+ 英文转中文
+
+ @param title 英文标题
+ @return 中文标题
+ */
 - (NSString *)transformAblumTitle:(NSString *)title
 {
     if ([title isEqualToString:@"Slo-mo"]) {

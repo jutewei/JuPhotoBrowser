@@ -72,6 +72,7 @@
 }
 //获取所有相册
 -(void)juGetAlbums{
+
     [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
         if (status == PHAuthorizationStatusAuthorized) {
 
