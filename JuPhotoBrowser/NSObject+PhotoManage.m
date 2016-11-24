@@ -91,7 +91,10 @@ static NSString * const JuCollectionName = @"皮肤宝医生";
     // 判断授权状态
     [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
         if (status != PHAuthorizationStatusAuthorized) {
-             NSLog(@"无法访问相簿");
+            if (status==PHAuthorizationStatusDenied||status==PHAuthorizationStatusRestricted) {
+//                [SHUIAlertView ShowAlert:@"无法使用iPhone相册" Message:@"请在iPhone的“设置-隐私-照片”中允许访问相册"];
+                NSLog(@"无法使用iPhone相册");
+            }
             return;
         }
 

@@ -45,7 +45,13 @@
     if ([self.juDelegate respondsToSelector:@selector(juPhotosDidCancelSelection)]) {
         [self.juDelegate juPhotosDidCancelSelection];
     }
-    [self.navigationController popViewControllerAnimated:YES];
+    if (self.presentingViewController) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }else{
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+
+//    [self.navigationController popViewControllerAnimated:YES];
 }
 - (void)juPhotosDidFinishSelection:(NSArray *)arrList isPreview:(BOOL)ispreview{
     if ([self.juDelegate respondsToSelector:@selector(juPhotosDidFinishSelection:isPreview:)]) {

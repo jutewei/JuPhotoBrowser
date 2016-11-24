@@ -75,7 +75,7 @@
         ju_previewItem = [UIButton buttonWithType: UIButtonTypeCustom];
         ju_previewItem.frame = CGRectMake(0, 0, 40, 40);
         ju_previewItem.titleLabel.font = [UIFont systemFontOfSize: 16.0];
-        [ju_previewItem setTitle: @"预览" forState: UIControlStateNormal];
+        [ju_previewItem setTitle:@"预览" forState: UIControlStateNormal];
         [ju_previewItem setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
         [ju_previewItem setTitleColor: [UIColor blackColor] forState: UIControlStateNormal];
         [ju_previewItem addTarget:self action:@selector(juPreview:) forControlEvents:UIControlEventTouchUpInside];
