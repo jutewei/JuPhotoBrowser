@@ -23,6 +23,9 @@
 		EB2FF49E1D9274EB009F1AF4 /* UIView+JuLayGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF4991D9274EB009F1AF4 /* UIView+JuLayGroup.m */; };
 		EB2FF49F1D9274EB009F1AF4 /* UIView+JuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF49B1D9274EB009F1AF4 /* UIView+JuLayout.m */; };
 		EB2FF4A21D928CB3009F1AF4 /* JuPhotoCollectionFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF4A11D928CB3009F1AF4 /* JuPhotoCollectionFoot.m */; };
+		EB4539671DE6DCF200B3B1F7 /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB4539661DE6DCF200B3B1F7 /* test.jpeg */; };
+		EB45396D1DE6E19600B3B1F7 /* NSObject+PhotoManage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB45396C1DE6E19600B3B1F7 /* NSObject+PhotoManage.m */; };
+		EB4539701DE6E1BC00B3B1F7 /* RHAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = EB45396F1DE6E1BC00B3B1F7 /* RHAssetsLibrary.m */; };
 		EBE15A751D93C33F0098C6F4 /* JuPhotoOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE15A741D93C33F0098C6F4 /* JuPhotoOverlayView.m */; };
 		EBE15A771D93C4450098C6F4 /* photo_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE15A761D93C4450098C6F4 /* photo_select.png */; };
 		EBE15A791D93C4510098C6F4 /* photo_un_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE15A781D93C4510098C6F4 /* photo_un_select.png */; };
@@ -59,6 +62,11 @@
 		EB2FF49B1D9274EB009F1AF4 /* UIView+JuLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JuLayout.m"; sourceTree = "<group>"; };
 		EB2FF4A01D928CB3009F1AF4 /* JuPhotoCollectionFoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoCollectionFoot.h; sourceTree = "<group>"; };
 		EB2FF4A11D928CB3009F1AF4 /* JuPhotoCollectionFoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPhotoCollectionFoot.m; sourceTree = "<group>"; };
+		EB4539661DE6DCF200B3B1F7 /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
+		EB45396B1DE6E19600B3B1F7 /* NSObject+PhotoManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PhotoManage.h"; sourceTree = "<group>"; };
+		EB45396C1DE6E19600B3B1F7 /* NSObject+PhotoManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PhotoManage.m"; sourceTree = "<group>"; };
+		EB45396E1DE6E1BC00B3B1F7 /* RHAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAssetsLibrary.h; sourceTree = "<group>"; };
+		EB45396F1DE6E1BC00B3B1F7 /* RHAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAssetsLibrary.m; sourceTree = "<group>"; };
 		EBE15A731D93C33F0098C6F4 /* JuPhotoOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoOverlayView.h; sourceTree = "<group>"; };
 		EBE15A741D93C33F0098C6F4 /* JuPhotoOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPhotoOverlayView.m; sourceTree = "<group>"; };
 		EBE15A761D93C4450098C6F4 /* photo_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_select.png; sourceTree = "<group>"; };
@@ -108,6 +116,11 @@
 				EB2FF46A1D925F0C009F1AF4 /* AppDelegate.m */,
 				EB2FF46C1D925F0C009F1AF4 /* ViewController.h */,
 				EB2FF46D1D925F0C009F1AF4 /* ViewController.m */,
+				EB45396B1DE6E19600B3B1F7 /* NSObject+PhotoManage.h */,
+				EB45396C1DE6E19600B3B1F7 /* NSObject+PhotoManage.m */,
+				EB45396E1DE6E1BC00B3B1F7 /* RHAssetsLibrary.h */,
+				EB45396F1DE6E1BC00B3B1F7 /* RHAssetsLibrary.m */,
+				EB4539661DE6DCF200B3B1F7 /* test.jpeg */,
 				EB2FF46F1D925F0C009F1AF4 /* Main.storyboard */,
 				EB2FF4721D925F0C009F1AF4 /* Assets.xcassets */,
 				EB2FF4741D925F0C009F1AF4 /* LaunchScreen.storyboard */,
@@ -236,6 +249,7 @@
 				EBE15A791D93C4510098C6F4 /* photo_un_select.png in Resources */,
 				EB2FF4711D925F0C009F1AF4 /* Main.storyboard in Resources */,
 				EBE15A771D93C4450098C6F4 /* photo_select.png in Resources */,
+				EB4539671DE6DCF200B3B1F7 /* test.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +267,14 @@
 				EB2FF46E1D925F0C009F1AF4 /* ViewController.m in Sources */,
 				EB2FF46B1D925F0C009F1AF4 /* AppDelegate.m in Sources */,
 				EB2FF4921D926320009F1AF4 /* JuPhotoCollectionVCell.m in Sources */,
+				EB45396D1DE6E19600B3B1F7 /* NSObject+PhotoManage.m in Sources */,
 				EBE15A911D93D7AE0098C6F4 /* UIView+Frame.m in Sources */,
 				EB2FF4A21D928CB3009F1AF4 /* JuPhotoCollectionFoot.m in Sources */,
 				EB2FF49D1D9274EB009F1AF4 /* UIView+JuConstraint.m in Sources */,
 				EBE15A751D93C33F0098C6F4 /* JuPhotoOverlayView.m in Sources */,
 				EB2FF4681D925F0C009F1AF4 /* main.m in Sources */,
 				EB2FF48C1D9262D6009F1AF4 /* JuPhotoGroupViewController.m in Sources */,
+				EB4539701DE6E1BC00B3B1F7 /* RHAssetsLibrary.m in Sources */,
 				EB2FF49F1D9274EB009F1AF4 /* UIView+JuLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

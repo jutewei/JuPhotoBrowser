@@ -9,8 +9,9 @@
 #import "ViewController.h"
 #import "JuPhotoGroupViewController.h"
 #import <Photos/Photos.h>
+#import "NSObject+PhotoManage.h"
 /** 相册名字 */
-static NSString * const XMGCollectionName = @"小码哥-Photos";
+static NSString * const XMGCollectionName = @"皮肤宝医生";
 @interface ViewController ()
 
 @end
@@ -76,7 +77,7 @@ static NSString * const XMGCollectionName = @"小码哥-Photos";
 /**
  * 获得自定义的相册对象
  */
-/*- (PHAssetCollection *)collection
+- (PHAssetCollection *)collection
 {
     // 先从已存在相册中找到自定义相册对象
     PHFetchResult<PHAssetCollection *> *collectionResult = [PHAssetCollection fetchAssetCollectionsWithType:PHAssetCollectionTypeAlbum subtype:PHAssetCollectionSubtypeAlbumRegular options:nil];
@@ -99,12 +100,12 @@ static NSString * const XMGCollectionName = @"小码哥-Photos";
     }
 
     return [PHAssetCollection fetchAssetCollectionsWithLocalIdentifiers:@[collectionId] options:nil].lastObject;
-}*/
+}
 
 /**
  * 保存图片到相册
  */
-/*- (IBAction)saveImage {
+- (IBAction)saveImage {
     // 判断授权状态
     [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
         if (status != PHAuthorizationStatusAuthorized) return;
@@ -112,22 +113,22 @@ static NSString * const XMGCollectionName = @"小码哥-Photos";
         dispatch_async(dispatch_get_main_queue(), ^{
             NSError *error = nil;
 
-            // 保存相片到相机胶卷
+//            // 保存相片到相机胶卷
             __block PHObjectPlaceholder *createdAsset = nil;
             [[PHPhotoLibrary sharedPhotoLibrary] performChangesAndWait:^{
-                createdAsset = [PHAssetCreationRequest creationRequestForAssetFromImage:[UIImage imageNamed:@"logo"]].placeholderForCreatedAsset;
+                createdAsset = [PHAssetCreationRequest creationRequestForAssetFromImage:[UIImage imageNamed:@"test.jpeg"]].placeholderForCreatedAsset;
             } error:&error];
 
             if (error) {
                 NSLog(@"保存失败：%@", error);
                 return;
             }
-
             // 拿到自定义的相册对象
             PHAssetCollection *collection = [self collection];
             if (collection == nil) return;
-
             [[PHPhotoLibrary sharedPhotoLibrary] performChangesAndWait:^{
+                PHFetchResult *fetchCollectionResult=[PHAsset fetchAssetsWithLocalIdentifiers:@[createdAsset.localIdentifier] options:nil];
+                NSLog(@"%@",fetchCollectionResult.lastObject);
                 [[PHAssetCollectionChangeRequest changeRequestForAssetCollection:collection] insertAssets:@[createdAsset] atIndexes:[NSIndexSet indexSetWithIndex:0]];
             } error:&error];
 
@@ -138,7 +139,13 @@ static NSString * const XMGCollectionName = @"小码哥-Photos";
             }
         });
     }];
-}*/
+}
+- (IBAction)juTouchSave:(UIButton *)sender {
+    UIImage *image=  [UIImage imageNamed:@"test.jpeg"];
+    [image shSaveRHAssetPhoto:^(PHAsset *Asset) {
+        ;
+    }];
+}
 
 - (IBAction)juTouchSelectPhoto:(id)sender {
     JuPhotoGroupViewController *vc=[[JuPhotoGroupViewController alloc]init];
