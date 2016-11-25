@@ -45,11 +45,19 @@
     if ([self.juDelegate respondsToSelector:@selector(juPhotosDidCancelController:)]) {
         [self.juDelegate juPhotosDidCancelController:self];
     }
-//    if (self.presentingViewController) {
+    if (self.presentingViewController) {
         [self dismissViewControllerAnimated:YES completion:nil];
-//    }else{
-//        [self.navigationController popViewControllerAnimated:YES];
-//    }
+    }else{
+         UIViewController *popVc = nil;
+        for (int i = 0; i < self.navigationController.viewControllers.count; i++) {
+            UIViewController *vc = self.navigationController.viewControllers[i];
+            if ([NSStringFromClass([vc class]) isEqualToString:@"JuPhotoGroupViewController"]) {
+                [self.navigationController popToViewController:popVc animated:true];
+                return;
+            }
+            popVc=vc;
+        }
+    }
 
 }
 - (void)juPhotosDidFinishController:(UIViewController *)pickerController didSelectAssets:(NSArray *)arrList isPreview:(BOOL)ispreview{

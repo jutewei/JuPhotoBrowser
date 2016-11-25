@@ -63,10 +63,10 @@
 		EB2FF4A01D928CB3009F1AF4 /* JuPhotoCollectionFoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoCollectionFoot.h; sourceTree = "<group>"; };
 		EB2FF4A11D928CB3009F1AF4 /* JuPhotoCollectionFoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPhotoCollectionFoot.m; sourceTree = "<group>"; };
 		EB4539661DE6DCF200B3B1F7 /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
-		EB45396B1DE6E19600B3B1F7 /* NSObject+PhotoManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PhotoManage.h"; sourceTree = "<group>"; };
-		EB45396C1DE6E19600B3B1F7 /* NSObject+PhotoManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PhotoManage.m"; sourceTree = "<group>"; };
-		EB45396E1DE6E1BC00B3B1F7 /* RHAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAssetsLibrary.h; sourceTree = "<group>"; };
-		EB45396F1DE6E1BC00B3B1F7 /* RHAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAssetsLibrary.m; sourceTree = "<group>"; };
+		EB45396B1DE6E19600B3B1F7 /* NSObject+PhotoManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+PhotoManage.h"; path = "../NSObject+PhotoManage.h"; sourceTree = "<group>"; };
+		EB45396C1DE6E19600B3B1F7 /* NSObject+PhotoManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PhotoManage.m"; path = "../NSObject+PhotoManage.m"; sourceTree = "<group>"; };
+		EB45396E1DE6E1BC00B3B1F7 /* RHAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RHAssetsLibrary.h; path = ../RHAssetsLibrary.h; sourceTree = "<group>"; };
+		EB45396F1DE6E1BC00B3B1F7 /* RHAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RHAssetsLibrary.m; path = ../RHAssetsLibrary.m; sourceTree = "<group>"; };
 		EBE15A731D93C33F0098C6F4 /* JuPhotoOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoOverlayView.h; sourceTree = "<group>"; };
 		EBE15A741D93C33F0098C6F4 /* JuPhotoOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPhotoOverlayView.m; sourceTree = "<group>"; };
 		EBE15A761D93C4450098C6F4 /* photo_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_select.png; sourceTree = "<group>"; };
@@ -116,10 +116,6 @@
 				EB2FF46A1D925F0C009F1AF4 /* AppDelegate.m */,
 				EB2FF46C1D925F0C009F1AF4 /* ViewController.h */,
 				EB2FF46D1D925F0C009F1AF4 /* ViewController.m */,
-				EB45396B1DE6E19600B3B1F7 /* NSObject+PhotoManage.h */,
-				EB45396C1DE6E19600B3B1F7 /* NSObject+PhotoManage.m */,
-				EB45396E1DE6E1BC00B3B1F7 /* RHAssetsLibrary.h */,
-				EB45396F1DE6E1BC00B3B1F7 /* RHAssetsLibrary.m */,
 				EB4539661DE6DCF200B3B1F7 /* test.jpeg */,
 				EB2FF46F1D925F0C009F1AF4 /* Main.storyboard */,
 				EB2FF4721D925F0C009F1AF4 /* Assets.xcassets */,
@@ -149,8 +145,10 @@
 		EB2FF4861D9262D6009F1AF4 /* JuPhoto */ = {
 			isa = PBXGroup;
 			children = (
-				EBE15A761D93C4450098C6F4 /* photo_select.png */,
-				EBE15A781D93C4510098C6F4 /* photo_un_select.png */,
+				EB45396B1DE6E19600B3B1F7 /* NSObject+PhotoManage.h */,
+				EB45396C1DE6E19600B3B1F7 /* NSObject+PhotoManage.m */,
+				EB45396E1DE6E1BC00B3B1F7 /* RHAssetsLibrary.h */,
+				EB45396F1DE6E1BC00B3B1F7 /* RHAssetsLibrary.m */,
 				EBE15A7A1D93CFA10098C6F4 /* JuPhotoDelegate.h */,
 				EB2FF4891D9262D6009F1AF4 /* JuPhotoGroupViewController.h */,
 				EB2FF48A1D9262D6009F1AF4 /* JuPhotoGroupViewController.m */,
@@ -164,6 +162,8 @@
 				EB2FF4A11D928CB3009F1AF4 /* JuPhotoCollectionFoot.m */,
 				EBE15A731D93C33F0098C6F4 /* JuPhotoOverlayView.h */,
 				EBE15A741D93C33F0098C6F4 /* JuPhotoOverlayView.m */,
+				EBE15A761D93C4450098C6F4 /* photo_select.png */,
+				EBE15A781D93C4510098C6F4 /* photo_un_select.png */,
 			);
 			path = JuPhoto;
 			sourceTree = "<group>";

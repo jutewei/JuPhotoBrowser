@@ -16,6 +16,7 @@
     NSMutableArray *ju_MArrSelects;
     UIButton *ju_previewItem;
     UIButton *ju_doneItem;
+    NSInteger isDidLoad;
 }
 
 @end
@@ -56,6 +57,16 @@
     UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(juCancel:)];
     [self.navigationItem setRightBarButtonItem:doneButton animated:NO];
 }
+-(void)juScrollEnd{
+    if (isDidLoad<2) {
+        CGFloat topInset = ((self.edgesForExtendedLayout && UIRectEdgeTop) && (ju_CollectionView.contentInset.top == 0)) ? (20.0 + 44.0) : 0.0;
+        CGFloat offsizeY=ju_CollectionView.collectionViewLayout.collectionViewContentSize.height - ju_CollectionView.frame.size.height + topInset;
+        if(offsizeY>0)
+            [ju_CollectionView setContentOffset:CGPointMake(0, offsizeY) animated:NO];
+
+    }
+    isDidLoad++;
+}
 -(void)juCancel:(id)sender{
     if ([self.juDelegate respondsToSelector:@selector(juPhotosDidCancelController:)]) {
         [self.juDelegate juPhotosDidCancelController:self];
@@ -63,6 +74,8 @@
 }
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    [self juScrollEnd];
+    [self performSelector:@selector(juScrollEnd) withObject:nil afterDelay:0.1];
     [self.navigationController setToolbarHidden:NO animated: YES];
 }
 -(void)viewWillDisappear:(BOOL)animated{

@@ -9,40 +9,40 @@
 #import "NSObject+PhotoManage.h"
 
 #import "RHAssetsLibrary.h"
-static NSString * const JuCollectionName = @"皮肤宝医生";
+static NSString * const JuCollectionName = @"Juvid";
 @implementation NSObject (PhotoManage)
--(void)shGetThumbnail:(void(^)(UIImage *image))imageHandle{
+-(void)juGetThumbnail:(void(^)(UIImage *image))imageHandle{
     if ([self isKindOfClass:[ALAsset class]]) {
         ALAsset *asset=(ALAsset *)self;
         imageHandle([UIImage imageWithCGImage:asset.thumbnail]);
     }else if([self isKindOfClass:[PHAsset class]]){
         CGSize targetSize = CGSizeMake(80, 80);
         // 请求图片
-        [self shImageRequestSize:targetSize handle:imageHandle];
+        [self juImageRequestSize:targetSize handle:imageHandle];
     }else if([self isKindOfClass:[UIImage class]]){
         imageHandle((UIImage *)self);
     }
 //    return nil;
 }
--(void)shGetRatioThumbnail:(void(^)(UIImage *image))imageHandle{
+-(void)juGetRatioThumbnail:(void(^)(UIImage *image))imageHandle{
     if ([self isKindOfClass:[ALAsset class]]) {
         ALAsset *asset=(ALAsset *)self;
         imageHandle([UIImage imageWithCGImage:asset.aspectRatioThumbnail]);
     }else if([self isKindOfClass:[PHAsset class]]){
         CGSize targetSize = CGSizeMake(150, 150);
-        [self shImageRequestSize:targetSize handle:imageHandle];
+        [self juImageRequestSize:targetSize handle:imageHandle];
     }else if([self isKindOfClass:[UIImage class]]){
         imageHandle((UIImage *)self);
     }
 }
--(void)shGetfullScreenImage:(void(^)(UIImage *image))imageHandle{
+-(void)juGetfullScreenImage:(void(^)(UIImage *image))imageHandle{
     if ([self isKindOfClass:[ALAsset class]]) {
         ALAsset *asset=(ALAsset *)self;
         imageHandle ([UIImage imageWithCGImage:asset.defaultRepresentation.fullScreenImage]);
     }else if([self isKindOfClass:[PHAsset class]]){
         PHAsset *asset=(PHAsset *)self;
         CGSize size = CGSizeMake(asset.pixelWidth, asset.pixelHeight);
-        [self shImageRequestSize:size handle:imageHandle];
+        [self juImageRequestSize:size handle:imageHandle];
     }else if([self isKindOfClass:[UIImage class]]){
         imageHandle((UIImage *)self);
     }
@@ -54,7 +54,7 @@ static NSString * const JuCollectionName = @"皮肤宝医生";
  @param targetSize 图片尺寸
  @param imageHandle 返回图片
  */
--(void)shImageRequestSize:(CGSize)targetSize handle:(void(^)(UIImage *image))imageHandle {
+-(void)juImageRequestSize:(CGSize)targetSize handle:(void(^)(UIImage *image))imageHandle {
     PHImageRequestOptions *imageOptions = [[PHImageRequestOptions alloc] init];
     imageOptions.synchronous = YES;
     // 请求图片
@@ -66,7 +66,7 @@ static NSString * const JuCollectionName = @"皮肤宝医生";
 
 @implementation UIImage (imageSave)
 
--(void)shSaveAssetPhoto:(void(^)(ALAsset *asset))imageHandle{
+-(void)juSaveAssetPhoto:(void(^)(ALAsset *asset))imageHandle{
 
     ALAssetsLibrary *assetsLibrary = [RHAssetsLibrary rh_getShareAssetsLibrary];
     [assetsLibrary writeImageToSavedPhotosAlbum:[self CGImage] orientation:(ALAssetOrientation)self.imageOrientation completionBlock:^(NSURL *assetURL, NSError *error) {
@@ -86,7 +86,7 @@ static NSString * const JuCollectionName = @"皮肤宝医生";
 
 
 
--(void)shSaveRHAssetPhoto:(void(^)(PHAsset * Asset))imageHandle{
+-(void)juSaveRHAssetPhoto:(void(^)(PHAsset * Asset))imageHandle{
 
     // 判断授权状态
     [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
@@ -116,7 +116,7 @@ static NSString * const JuCollectionName = @"皮肤宝医生";
             [[PHPhotoLibrary sharedPhotoLibrary] performChangesAndWait:^{
                 PHFetchResult *fetchCollectionResult=[PHAsset fetchAssetsWithLocalIdentifiers:@[createdAsset.localIdentifier] options:nil];
                 [[PHAssetCollectionChangeRequest changeRequestForAssetCollection:collection] insertAssets:@[createdAsset] atIndexes:[NSIndexSet indexSetWithIndex:0]];
-                 imageHandle(fetchCollectionResult.lastObject);
+                imageHandle(fetchCollectionResult.lastObject);
             } error:&error];
 
             if (error) {
