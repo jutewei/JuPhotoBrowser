@@ -142,7 +142,7 @@ static NSString * const XMGCollectionName = @"皮肤宝医生";
 }
 - (IBAction)juTouchSave:(UIButton *)sender {
     UIImage *image=  [UIImage imageNamed:@"test.jpeg"];
-    [image shSaveRHAssetPhoto:^(PHAsset *Asset) {
+    [image juSaveRHAssetPhoto:^(PHAsset *Asset) {
         ;
     }];
 }
