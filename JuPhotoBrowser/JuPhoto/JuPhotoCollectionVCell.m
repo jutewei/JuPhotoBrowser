@@ -27,7 +27,6 @@
         [ju_imageView setContentMode:UIViewContentModeScaleAspectFill];
         [ju_imageView setClipsToBounds:YES];
         ju_imageView.juEdge(UIEdgeInsetsMake(0, 0, 0, 0));
-
         ju_overlayView=[[JuPhotoOverlayView alloc]init];
         [self.contentView addSubview:ju_overlayView];
         ju_overlayView.juEdge(UIEdgeInsetsMake(0, 0, 0, 0));

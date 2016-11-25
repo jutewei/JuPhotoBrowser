@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @protocol JuPhotoDelegate <NSObject>
-- (void)juPhotosDidFinishSelection:(NSArray *)arrList isPreview:(BOOL)ispreview;///< 预览
-- (void)juPhotosDidCancelSelection;///< 取消
+- (void)juPhotosDidFinishController:(UIViewController *)pickerController didSelectAssets:(NSArray *)arrList isPreview:(BOOL)ispreview;///< 预览
+- (void)juPhotosDidCancelController:(UIViewController *)pickerController;///< 取消
 @end

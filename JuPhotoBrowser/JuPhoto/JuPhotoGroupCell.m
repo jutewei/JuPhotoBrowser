@@ -67,17 +67,19 @@
     PHFetchResult *assetsFetchResults = [PHAsset fetchAssetsInAssetCollection:ju_PhotoGroup options:nil];
 
     if (assetsFetchResults.count>0) {
-        PHCachingImageManager *imageManager = [[PHCachingImageManager alloc] init];
-        PHAsset *asset = assetsFetchResults.lastObject;
-        [imageManager requestImageForAsset:asset
-                                targetSize:CGSizeMake(170, 170)
-                               contentMode:PHImageContentModeAspectFill
-                                   options:nil
-                             resultHandler:^(UIImage *result, NSDictionary *info) {
-                                 ju_imageView.image=result;
-                                 // 得到一张 UIImage，展示到界面上
-                                 
-                             }];
+        PHImageRequestOptions *imageOptions = [[PHImageRequestOptions alloc] init];
+        imageOptions.synchronous = YES;///< 同步
+        [[PHImageManager defaultManager] requestImageForAsset:assetsFetchResults.lastObject
+                                                   targetSize:CGSizeMake(170, 170)
+                                                  contentMode:PHImageContentModeAspectFill
+                                                      options:imageOptions
+                                                resultHandler:^(UIImage *result, NSDictionary *info) {
+                                                    if (result) {
+                                                        ju_imageView.image=result;
+                                                    }
+                                                    NSLog(@"%@  %@",ju_PhotoGroup ,result);
+                                                    // 得到一张 UIImage，展示到界面上
+                                                }];
     }
     ju_subTitle.text=[NSString stringWithFormat:@"（%lu）",(unsigned long)assetsFetchResults.count];
 

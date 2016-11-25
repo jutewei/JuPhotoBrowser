@@ -39,25 +39,24 @@
     [self.navigationItem setRightBarButtonItem:cancelButton animated:NO];
 }
 -(void)juCancel:(id)sender{
-    [self juPhotosDidCancelSelection];
+    [self juPhotosDidCancelController:self];
 }
--(void)juPhotosDidCancelSelection{
-    if ([self.juDelegate respondsToSelector:@selector(juPhotosDidCancelSelection)]) {
-        [self.juDelegate juPhotosDidCancelSelection];
+- (void)juPhotosDidCancelController:(UIViewController *)pickerController{
+    if ([self.juDelegate respondsToSelector:@selector(juPhotosDidCancelController:)]) {
+        [self.juDelegate juPhotosDidCancelController:self];
     }
-    if (self.presentingViewController) {
+//    if (self.presentingViewController) {
         [self dismissViewControllerAnimated:YES completion:nil];
-    }else{
-        [self.navigationController popViewControllerAnimated:YES];
-    }
+//    }else{
+//        [self.navigationController popViewControllerAnimated:YES];
+//    }
 
-//    [self.navigationController popViewControllerAnimated:YES];
 }
-- (void)juPhotosDidFinishSelection:(NSArray *)arrList isPreview:(BOOL)ispreview{
-    if ([self.juDelegate respondsToSelector:@selector(juPhotosDidFinishSelection:isPreview:)]) {
-        [self.juDelegate juPhotosDidFinishSelection:arrList isPreview:ispreview];
+- (void)juPhotosDidFinishController:(UIViewController *)pickerController didSelectAssets:(NSArray *)arrList isPreview:(BOOL)ispreview{
+    if ([self.juDelegate respondsToSelector:@selector(juPhotosDidFinishController:didSelectAssets:isPreview:)]) {
+        [self.juDelegate juPhotosDidFinishController:self didSelectAssets:arrList isPreview:ispreview];
     }
-    [self.navigationController popViewControllerAnimated:YES];
+//    [self.navigationController popViewControllerAnimated:YES];
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return ju_ArrList.count;
@@ -132,7 +131,7 @@
 
     [result enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         PHAsset *asset = (PHAsset *)obj;
-        NSLog(@"照片名%@", [asset valueForKey:@"filename"]);
+//        NSLog(@"照片名%@", [asset valueForKey:@"filename"]);
         [assets addObject:asset];
     }];
 

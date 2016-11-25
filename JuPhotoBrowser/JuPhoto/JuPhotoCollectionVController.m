@@ -57,8 +57,8 @@
     [self.navigationItem setRightBarButtonItem:doneButton animated:NO];
 }
 -(void)juCancel:(id)sender{
-    if ([self.juDelegate respondsToSelector:@selector(juPhotosDidCancelSelection)]) {
-        [self.juDelegate juPhotosDidCancelSelection];
+    if ([self.juDelegate respondsToSelector:@selector(juPhotosDidCancelController:)]) {
+        [self.juDelegate juPhotosDidCancelController:self];
     }
 }
 -(void)viewWillAppear:(BOOL)animated{
@@ -75,7 +75,7 @@
         ju_previewItem = [UIButton buttonWithType: UIButtonTypeCustom];
         ju_previewItem.frame = CGRectMake(0, 0, 40, 40);
         ju_previewItem.titleLabel.font = [UIFont systemFontOfSize: 16.0];
-        [ju_previewItem setTitle:@"预览" forState: UIControlStateNormal];
+        [ju_previewItem setTitle: @"预览" forState: UIControlStateNormal];
         [ju_previewItem setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
         [ju_previewItem setTitleColor: [UIColor blackColor] forState: UIControlStateNormal];
         [ju_previewItem addTarget:self action:@selector(juPreview:) forControlEvents:UIControlEventTouchUpInside];
@@ -111,14 +111,14 @@
     }
 }
 -(void)juFinish:(UIButton *)sender{
-    [self.navigationController popToRootViewControllerAnimated:YES];
-    if ([self.juDelegate respondsToSelector:@selector(juPhotosDidFinishSelection:isPreview:)]) {
-        [self.juDelegate juPhotosDidFinishSelection:ju_MArrSelects isPreview:NO];
+//    [self.navigationController popToRootViewControllerAnimated:YES];
+    if ([self.juDelegate respondsToSelector:@selector(juPhotosDidFinishController:didSelectAssets:isPreview:)]) {
+        [self.juDelegate juPhotosDidFinishController:self didSelectAssets:ju_MArrSelects isPreview:NO];
     }
  }
 -(void)juPreview:(UIButton *)sender{
-    if ([self.juDelegate respondsToSelector:@selector(juPhotosDidFinishSelection:isPreview:)]) {
-        [self.juDelegate juPhotosDidFinishSelection:ju_MArrSelects isPreview:YES];
+    if ([self.juDelegate respondsToSelector:@selector(juPhotosDidFinishController:didSelectAssets:isPreview:)]) {
+        [self.juDelegate juPhotosDidFinishController:self didSelectAssets:ju_MArrSelects isPreview:YES];
     }
 }
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
