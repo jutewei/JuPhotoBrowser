@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "JuPhotoGroupViewController.h"
+#import "JuPhotoGroupTVC.h"
 #import <Photos/Photos.h>
-#import "NSObject+PhotoManage.h"
+#import "UIImage+PhotoManage.h"
 /** 相册名字 */
 static NSString * const XMGCollectionName = @"皮肤宝医生";
 @interface ViewController ()
@@ -148,7 +148,7 @@ static NSString * const XMGCollectionName = @"皮肤宝医生";
 }
 
 - (IBAction)juTouchSelectPhoto:(id)sender {
-    JuPhotoGroupViewController *vc=[[JuPhotoGroupViewController alloc]init];
+    JuPhotoGroupTVC *vc=[[JuPhotoGroupTVC alloc]init];
     vc.ju_maxNumSelection=8;
     [self.navigationController pushViewController:vc animated:YES];
 }

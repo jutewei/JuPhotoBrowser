@@ -1,0 +1,47 @@
+{
+  "name": "JuPhoto",
+  "version": "1.0",
+  "summary": "通用JuPhoto SDK",
+  "homepage": "https://github.com/jutewei/JuPhotoBrowser",
+  "authors": {
+    "cmb": "zhutianwei224@pingan.com.cn"
+  },
+  "license": {
+    "type": "Copyright",
+    "text": "    © 2021-2021 pingan. All rights reserved.\n"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/jutewei/JuPhotoBrowser.git"
+  },
+  "resource_bundles": {
+    "JuPhotoResource": "Source/Resources/*"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Source/*.{h,m}",
+      "subspecs": [
+        {
+          "name": "Deal",
+          "source_files": "Source/Deal/*.{h,m}"
+        },
+        {
+          "name": "JuDocument",
+          "source_files": "Source/JuDocument/*.{h,m}"
+        },
+        {
+          "name": "JuPhotos",
+          "source_files": "Source/JuPhotos/*.{h,m}"
+        },
+        {
+          "name": "JuZoomImage",
+          "source_files": "Source/JuZoomImage/*.{h,m}"
+        }
+      ]
+    }
+  ]
+}

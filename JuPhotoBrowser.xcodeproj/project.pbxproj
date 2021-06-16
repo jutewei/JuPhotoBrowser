@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		278AADC30EC745CEF715C1A7 /* libPods-JuPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 917FB8A6BE3664AFA815035C /* libPods-JuPhotoBrowser.a */; };
 		EB2FF4681D925F0C009F1AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF4671D925F0C009F1AF4 /* main.m */; };
 		EB2FF46B1D925F0C009F1AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF46A1D925F0C009F1AF4 /* AppDelegate.m */; };
 		EB2FF46E1D925F0C009F1AF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF46D1D925F0C009F1AF4 /* ViewController.m */; };
@@ -14,25 +15,13 @@
 		EB2FF4731D925F0C009F1AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2FF4721D925F0C009F1AF4 /* Assets.xcassets */; };
 		EB2FF4761D925F0C009F1AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2FF4741D925F0C009F1AF4 /* LaunchScreen.storyboard */; };
 		EB2FF47F1D925F47009F1AF4 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2FF47E1D925F47009F1AF4 /* Photos.framework */; };
-		EB2FF48B1D9262D6009F1AF4 /* JuPhotoCollectionVController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF4881D9262D6009F1AF4 /* JuPhotoCollectionVController.m */; };
-		EB2FF48C1D9262D6009F1AF4 /* JuPhotoGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF48A1D9262D6009F1AF4 /* JuPhotoGroupViewController.m */; };
-		EB2FF48F1D9262FE009F1AF4 /* JuPhotoGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF48E1D9262FE009F1AF4 /* JuPhotoGroupCell.m */; };
-		EB2FF4921D926320009F1AF4 /* JuPhotoCollectionVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF4911D926320009F1AF4 /* JuPhotoCollectionVCell.m */; };
-		EB2FF49C1D9274EB009F1AF4 /* JuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF4951D9274EB009F1AF4 /* JuLayout.m */; };
-		EB2FF49D1D9274EB009F1AF4 /* UIView+JuConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF4971D9274EB009F1AF4 /* UIView+JuConstraint.m */; };
-		EB2FF49E1D9274EB009F1AF4 /* UIView+JuLayGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF4991D9274EB009F1AF4 /* UIView+JuLayGroup.m */; };
-		EB2FF49F1D9274EB009F1AF4 /* UIView+JuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF49B1D9274EB009F1AF4 /* UIView+JuLayout.m */; };
-		EB2FF4A21D928CB3009F1AF4 /* JuPhotoCollectionFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF4A11D928CB3009F1AF4 /* JuPhotoCollectionFoot.m */; };
 		EB4539671DE6DCF200B3B1F7 /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB4539661DE6DCF200B3B1F7 /* test.jpeg */; };
-		EB45396D1DE6E19600B3B1F7 /* NSObject+PhotoManage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB45396C1DE6E19600B3B1F7 /* NSObject+PhotoManage.m */; };
-		EB4539701DE6E1BC00B3B1F7 /* RHAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = EB45396F1DE6E1BC00B3B1F7 /* RHAssetsLibrary.m */; };
-		EBE15A751D93C33F0098C6F4 /* JuPhotoOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE15A741D93C33F0098C6F4 /* JuPhotoOverlayView.m */; };
-		EBE15A771D93C4450098C6F4 /* photo_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE15A761D93C4450098C6F4 /* photo_select.png */; };
-		EBE15A791D93C4510098C6F4 /* photo_un_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE15A781D93C4510098C6F4 /* photo_un_select.png */; };
-		EBE15A911D93D7AE0098C6F4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE15A901D93D7AE0098C6F4 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291D1B08A9A95DAA2B249CC3 /* Pods-JuPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuPhotoBrowser.release.xcconfig"; path = "Target Support Files/Pods-JuPhotoBrowser/Pods-JuPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		7DF4D45F6298AC43DB38BF34 /* Pods-JuPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuPhotoBrowser.debug.xcconfig"; path = "Target Support Files/Pods-JuPhotoBrowser/Pods-JuPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		917FB8A6BE3664AFA815035C /* libPods-JuPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JuPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2FF4631D925F0C009F1AF4 /* JuPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2FF4671D925F0C009F1AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB2FF4691D925F0C009F1AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,36 +33,7 @@
 		EB2FF4751D925F0C009F1AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB2FF4771D925F0C009F1AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB2FF47E1D925F47009F1AF4 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
-		EB2FF4871D9262D6009F1AF4 /* JuPhotoCollectionVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoCollectionVController.h; sourceTree = "<group>"; };
-		EB2FF4881D9262D6009F1AF4 /* JuPhotoCollectionVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPhotoCollectionVController.m; sourceTree = "<group>"; };
-		EB2FF4891D9262D6009F1AF4 /* JuPhotoGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoGroupViewController.h; sourceTree = "<group>"; };
-		EB2FF48A1D9262D6009F1AF4 /* JuPhotoGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPhotoGroupViewController.m; sourceTree = "<group>"; };
-		EB2FF48D1D9262FE009F1AF4 /* JuPhotoGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoGroupCell.h; sourceTree = "<group>"; };
-		EB2FF48E1D9262FE009F1AF4 /* JuPhotoGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPhotoGroupCell.m; sourceTree = "<group>"; };
-		EB2FF4901D926320009F1AF4 /* JuPhotoCollectionVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoCollectionVCell.h; sourceTree = "<group>"; };
-		EB2FF4911D926320009F1AF4 /* JuPhotoCollectionVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPhotoCollectionVCell.m; sourceTree = "<group>"; };
-		EB2FF4941D9274EB009F1AF4 /* JuLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuLayout.h; sourceTree = "<group>"; };
-		EB2FF4951D9274EB009F1AF4 /* JuLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuLayout.m; sourceTree = "<group>"; };
-		EB2FF4961D9274EB009F1AF4 /* UIView+JuConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JuConstraint.h"; sourceTree = "<group>"; };
-		EB2FF4971D9274EB009F1AF4 /* UIView+JuConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JuConstraint.m"; sourceTree = "<group>"; };
-		EB2FF4981D9274EB009F1AF4 /* UIView+JuLayGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JuLayGroup.h"; sourceTree = "<group>"; };
-		EB2FF4991D9274EB009F1AF4 /* UIView+JuLayGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JuLayGroup.m"; sourceTree = "<group>"; };
-		EB2FF49A1D9274EB009F1AF4 /* UIView+JuLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JuLayout.h"; sourceTree = "<group>"; };
-		EB2FF49B1D9274EB009F1AF4 /* UIView+JuLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JuLayout.m"; sourceTree = "<group>"; };
-		EB2FF4A01D928CB3009F1AF4 /* JuPhotoCollectionFoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoCollectionFoot.h; sourceTree = "<group>"; };
-		EB2FF4A11D928CB3009F1AF4 /* JuPhotoCollectionFoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPhotoCollectionFoot.m; sourceTree = "<group>"; };
 		EB4539661DE6DCF200B3B1F7 /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
-		EB45396B1DE6E19600B3B1F7 /* NSObject+PhotoManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+PhotoManage.h"; path = "../NSObject+PhotoManage.h"; sourceTree = "<group>"; };
-		EB45396C1DE6E19600B3B1F7 /* NSObject+PhotoManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PhotoManage.m"; path = "../NSObject+PhotoManage.m"; sourceTree = "<group>"; };
-		EB45396E1DE6E1BC00B3B1F7 /* RHAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RHAssetsLibrary.h; path = ../RHAssetsLibrary.h; sourceTree = "<group>"; };
-		EB45396F1DE6E1BC00B3B1F7 /* RHAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RHAssetsLibrary.m; path = ../RHAssetsLibrary.m; sourceTree = "<group>"; };
-		EBE15A731D93C33F0098C6F4 /* JuPhotoOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoOverlayView.h; sourceTree = "<group>"; };
-		EBE15A741D93C33F0098C6F4 /* JuPhotoOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPhotoOverlayView.m; sourceTree = "<group>"; };
-		EBE15A761D93C4450098C6F4 /* photo_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_select.png; sourceTree = "<group>"; };
-		EBE15A781D93C4510098C6F4 /* photo_un_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_un_select.png; sourceTree = "<group>"; };
-		EBE15A7A1D93CFA10098C6F4 /* JuPhotoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPhotoDelegate.h; sourceTree = "<group>"; };
-		EBE15A8F1D93D7AE0098C6F4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		EBE15A901D93D7AE0098C6F4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		EBE15A921D93E5610098C6F4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		EBE15A931D93E5610098C6F4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,18 +44,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB2FF47F1D925F47009F1AF4 /* Photos.framework in Frameworks */,
+				278AADC30EC745CEF715C1A7 /* libPods-JuPhotoBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31B6474099FD04D967185E2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DF4D45F6298AC43DB38BF34 /* Pods-JuPhotoBrowser.debug.xcconfig */,
+				291D1B08A9A95DAA2B249CC3 /* Pods-JuPhotoBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EB2FF45A1D925F0C009F1AF4 = {
 			isa = PBXGroup;
 			children = (
 				EB2FF4651D925F0C009F1AF4 /* JuPhotoBrowser */,
 				EB2FF4641D925F0C009F1AF4 /* Products */,
 				EB2FF47D1D925F47009F1AF4 /* Frameworks */,
+				31B6474099FD04D967185E2B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,8 +81,6 @@
 		EB2FF4651D925F0C009F1AF4 /* JuPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				EB2FF4931D9274EB009F1AF4 /* Layout */,
-				EB2FF4861D9262D6009F1AF4 /* JuPhoto */,
 				EB2FF4691D925F0C009F1AF4 /* AppDelegate.h */,
 				EB2FF46A1D925F0C009F1AF4 /* AppDelegate.m */,
 				EB2FF46C1D925F0C009F1AF4 /* ViewController.h */,
@@ -138,51 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				EB2FF47E1D925F47009F1AF4 /* Photos.framework */,
+				917FB8A6BE3664AFA815035C /* libPods-JuPhotoBrowser.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EB2FF4861D9262D6009F1AF4 /* JuPhoto */ = {
-			isa = PBXGroup;
-			children = (
-				EB45396B1DE6E19600B3B1F7 /* NSObject+PhotoManage.h */,
-				EB45396C1DE6E19600B3B1F7 /* NSObject+PhotoManage.m */,
-				EB45396E1DE6E1BC00B3B1F7 /* RHAssetsLibrary.h */,
-				EB45396F1DE6E1BC00B3B1F7 /* RHAssetsLibrary.m */,
-				EBE15A7A1D93CFA10098C6F4 /* JuPhotoDelegate.h */,
-				EB2FF4891D9262D6009F1AF4 /* JuPhotoGroupViewController.h */,
-				EB2FF48A1D9262D6009F1AF4 /* JuPhotoGroupViewController.m */,
-				EB2FF48D1D9262FE009F1AF4 /* JuPhotoGroupCell.h */,
-				EB2FF48E1D9262FE009F1AF4 /* JuPhotoGroupCell.m */,
-				EB2FF4871D9262D6009F1AF4 /* JuPhotoCollectionVController.h */,
-				EB2FF4881D9262D6009F1AF4 /* JuPhotoCollectionVController.m */,
-				EB2FF4901D926320009F1AF4 /* JuPhotoCollectionVCell.h */,
-				EB2FF4911D926320009F1AF4 /* JuPhotoCollectionVCell.m */,
-				EB2FF4A01D928CB3009F1AF4 /* JuPhotoCollectionFoot.h */,
-				EB2FF4A11D928CB3009F1AF4 /* JuPhotoCollectionFoot.m */,
-				EBE15A731D93C33F0098C6F4 /* JuPhotoOverlayView.h */,
-				EBE15A741D93C33F0098C6F4 /* JuPhotoOverlayView.m */,
-				EBE15A761D93C4450098C6F4 /* photo_select.png */,
-				EBE15A781D93C4510098C6F4 /* photo_un_select.png */,
-			);
-			path = JuPhoto;
-			sourceTree = "<group>";
-		};
-		EB2FF4931D9274EB009F1AF4 /* Layout */ = {
-			isa = PBXGroup;
-			children = (
-				EBE15A8F1D93D7AE0098C6F4 /* UIView+Frame.h */,
-				EBE15A901D93D7AE0098C6F4 /* UIView+Frame.m */,
-				EB2FF4941D9274EB009F1AF4 /* JuLayout.h */,
-				EB2FF4951D9274EB009F1AF4 /* JuLayout.m */,
-				EB2FF4961D9274EB009F1AF4 /* UIView+JuConstraint.h */,
-				EB2FF4971D9274EB009F1AF4 /* UIView+JuConstraint.m */,
-				EB2FF4981D9274EB009F1AF4 /* UIView+JuLayGroup.h */,
-				EB2FF4991D9274EB009F1AF4 /* UIView+JuLayGroup.m */,
-				EB2FF49A1D9274EB009F1AF4 /* UIView+JuLayout.h */,
-				EB2FF49B1D9274EB009F1AF4 /* UIView+JuLayout.m */,
-			);
-			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB2FF47A1D925F0C009F1AF4 /* Build configuration list for PBXNativeTarget "JuPhotoBrowser" */;
 			buildPhases = (
+				F15485D1FFFEB31CC19ABC48 /* [CP] Check Pods Manifest.lock */,
 				EB2FF45F1D925F0C009F1AF4 /* Sources */,
 				EB2FF4601D925F0C009F1AF4 /* Frameworks */,
 				EB2FF4611D925F0C009F1AF4 /* Resources */,
+				E3A298CF65FD6AD8B6FFA18D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,8 +155,10 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = EB2FF45A1D925F0C009F1AF4;
 			productRefGroup = EB2FF4641D925F0C009F1AF4 /* Products */;
@@ -246,36 +177,64 @@
 			files = (
 				EB2FF4761D925F0C009F1AF4 /* LaunchScreen.storyboard in Resources */,
 				EB2FF4731D925F0C009F1AF4 /* Assets.xcassets in Resources */,
-				EBE15A791D93C4510098C6F4 /* photo_un_select.png in Resources */,
 				EB2FF4711D925F0C009F1AF4 /* Main.storyboard in Resources */,
-				EBE15A771D93C4450098C6F4 /* photo_select.png in Resources */,
 				EB4539671DE6DCF200B3B1F7 /* test.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E3A298CF65FD6AD8B6FFA18D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JuPhotoBrowser/Pods-JuPhotoBrowser-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JuPhoto/JuPhotoResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JuPhotoResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JuPhotoBrowser/Pods-JuPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F15485D1FFFEB31CC19ABC48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JuPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB2FF45F1D925F0C009F1AF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB2FF49E1D9274EB009F1AF4 /* UIView+JuLayGroup.m in Sources */,
-				EB2FF48B1D9262D6009F1AF4 /* JuPhotoCollectionVController.m in Sources */,
-				EB2FF48F1D9262FE009F1AF4 /* JuPhotoGroupCell.m in Sources */,
-				EB2FF49C1D9274EB009F1AF4 /* JuLayout.m in Sources */,
 				EB2FF46E1D925F0C009F1AF4 /* ViewController.m in Sources */,
 				EB2FF46B1D925F0C009F1AF4 /* AppDelegate.m in Sources */,
-				EB2FF4921D926320009F1AF4 /* JuPhotoCollectionVCell.m in Sources */,
-				EB45396D1DE6E19600B3B1F7 /* NSObject+PhotoManage.m in Sources */,
-				EBE15A911D93D7AE0098C6F4 /* UIView+Frame.m in Sources */,
-				EB2FF4A21D928CB3009F1AF4 /* JuPhotoCollectionFoot.m in Sources */,
-				EB2FF49D1D9274EB009F1AF4 /* UIView+JuConstraint.m in Sources */,
-				EBE15A751D93C33F0098C6F4 /* JuPhotoOverlayView.m in Sources */,
 				EB2FF4681D925F0C009F1AF4 /* main.m in Sources */,
-				EB2FF48C1D9262D6009F1AF4 /* JuPhotoGroupViewController.m in Sources */,
-				EB4539701DE6E1BC00B3B1F7 /* RHAssetsLibrary.m in Sources */,
-				EB2FF49F1D9274EB009F1AF4 /* UIView+JuLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +356,7 @@
 		};
 		EB2FF47B1D925F0C009F1AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF4D45F6298AC43DB38BF34 /* Pods-JuPhotoBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -413,6 +373,7 @@
 		};
 		EB2FF47C1D925F0C009F1AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291D1B08A9A95DAA2B249CC3 /* Pods-JuPhotoBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
