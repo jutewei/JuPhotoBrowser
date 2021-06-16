@@ -1,1 +1,0 @@
-../../../../Source/JuZoomImage/JuAnimated.h

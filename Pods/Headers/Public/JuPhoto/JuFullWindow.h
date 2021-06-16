@@ -1,1 +1,0 @@
-../../../../Source/JuZoomImage/JuFullWindow.h

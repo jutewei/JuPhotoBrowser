@@ -1,1 +1,0 @@
-../../../../Source/JuPhotos/JuPhotoCollectionFoot.h

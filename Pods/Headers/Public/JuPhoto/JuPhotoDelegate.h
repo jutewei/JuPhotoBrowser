@@ -1,1 +1,0 @@
-../../../../Source/JuPhotos/JuPhotoDelegate.h

@@ -1,1 +1,0 @@
-../../../../Source/JuPhotos/JuPhotoConfig.h

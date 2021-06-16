@@ -1,0 +1,1099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01334CF703F5FBBE5C8F713033BC960C /* JuLayoutFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9784C192CD031C4DE6B458E7FFCA503B /* JuLayoutFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DEDE5861CA1D80C10E780853BDD216C /* JuDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 583B179FA85F812C4251A82D373693B6 /* JuDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		194DDFA5E9797BEB5A19F543D74B3758 /* photo_un_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2483AE2F9A44831940C861B949BDC910 /* photo_un_select@2x.png */; };
+		1AF819EA54BD2F6B0F47E14A8A4DC03A /* JuAlbumPreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3DA52F3193B9EC17EB451618F74B53 /* JuAlbumPreviewVC.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1D577FFE9655FF3B05651F932AC0D480 /* JuProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3105EB80205212C93BEB53BFB667F0 /* JuProgressView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		22391EBA5160B3A3EE42C094DCA231C6 /* PADocumentPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195B4D38225EBBB6972E25CCEC3D5FF /* PADocumentPickerVC.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		24E4792864EB706750427D272B95CB27 /* UIImageView+netImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EFB3B9D1AAE6C783BC68DC1DFA40F61 /* UIImageView+netImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2523B2538CF5A87513749E007703C22E /* JuPhotoGroupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB905234FD1944F8E2C300B2BB58636 /* JuPhotoGroupCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25D3BCDAC96F779242A32724118C218A /* JuLargeImageVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D16D06C9EB9171AE145E735A76A77652 /* JuLargeImageVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B73FBEA2F5CB1A912907E5951D13B0A /* JuPhotoPickers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9975183A81E7A61F07E0C7394E835AC2 /* JuPhotoPickers.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2FC28AF624B95E67CF8DCA3B70D47229 /* JUAssetManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 195A7DF33C81131BA7498ACB86F3601D /* JUAssetManage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30095A22CA465A417BD37B99A8F9B83B /* UIImage+PhotoManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B238E9261536E13825DCDE73B537A89 /* UIImage+PhotoManage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		35E45BF5DB4F1454011B5FA6B34DF167 /* JuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1773B1319FAACBDB1B4C54421E9627 /* JuLayout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3D8D412D11195F0D29761600EF582023 /* JuPhotoOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0FEE22759E2AFA6D8A8369A948096C /* JuPhotoOverlayView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		419360697BAD77EADA5775B333DB5E7A /* JuPhotoCollectionVCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 09478072BD761B5F13D87DDD42AD4046 /* JuPhotoCollectionVCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4610B1AAA249B2EE3E4504ABA62D802C /* JuImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9846F1C3C0024C3A51D0C9EC5767844F /* JuImageObject.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4AB57F9368AEBB28BD28BD7CF309D29F /* JuPhotoCollectionFoot.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDF8887286853B4B41DC592D9B03973 /* JuPhotoCollectionFoot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BBF9B9FD9FA364F547B691250C5A835 /* JuPhotoAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 7746D3A8FFBF8C27F9EAA777DF355FC3 /* JuPhotoAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50A5CC48196B3A6AB0CCB5C097C7964E /* JuImageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C26A620B9C587A530215ED85125E547C /* JuImageObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		529E911FB0F45D18BA94AA99B1343ABB /* JuPhotoPickers.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E7B90F9CBC57144032E1406E8FA0B4 /* JuPhotoPickers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57737A83E55AA1971D7C5AAC392BCDE7 /* UIView+JuConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD0A125D253A180FB05EE9932746F7 /* UIView+JuConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		58467B3C3C997122F43B6C0D25BFDB7F /* JuPhotoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 39DC6BDDF6CCEB747BCB77D410C5C6E2 /* JuPhotoConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5ACFB96DA2F41869BA6626123D801EB5 /* JuPhotoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 39DA7439CF51B914A14BAF309B4D970F /* JuPhotoDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66D8CFF9FE5A2E63601582F4D18F0C18 /* JuImagesCollectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C9483CC49F5CECA483092BBEC68D3C /* JuImagesCollectCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6C30BDC765CE0F973392002453A1CE14 /* JuImagesCollectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5171AE094205F444E31089DCAC242AD /* JuImagesCollectView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		712ADE69A3567569C27E05223215FF5A /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B1213CC440C6AA2CC33E3373855D77 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7569D9128371C88C24CFFAE1806451BD /* photo_original@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A59E3ABF973C6C1A9C43C7C24E05AD /* photo_original@2x.png */; };
+		7B68C1679895E222121D2D4EA5D98D8E /* JuPhotoAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD88CAE669DA020AD224BE5BAB52F9 /* JuPhotoAlert.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		80C08DA0B578C4B86D66092574D91A4A /* JuPhotoCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3852F70B85E650801FD1B858066D25B /* JuPhotoCollectionVC.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		823157C506127FB471FC9CCA9B2EBC57 /* UIView+JuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 818966894F4E0C022B0B28E563715D99 /* UIView+JuLayout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		82F9C7EFD19185A8E74BD92052A5C8BF /* JuAlbumPreviewVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B905F7DF820934A7EBF18F44CAD4741 /* JuAlbumPreviewVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83802C3F1C604D835CCD550D066F5D04 /* JuPhotoGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD5FF201E9BAA718022F5A85136D1E /* JuPhotoGroupCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		867AB668AEDC8EAA9D1FDC7D433CF4EB /* JuZoomScaleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4EE3AFC642D8417072756D3EFC22E8 /* JuZoomScaleView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E00031294117E4AAD9C3C148C69F6A0 /* photo_originalUn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 804DC64363578BCEFCF442F2562D9A24 /* photo_originalUn@2x.png */; };
+		91552B47CED1B8CC0B1D5FA21E123EF9 /* UIView+JuConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A085C2DBFEE1D0EAA904C521CCFDABA4 /* UIView+JuConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9327508822EA0D3EC73751A7949FD9AB /* JuPhotoGroupTVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4FAA201A5A5B05A2219AA850DECCEE /* JuPhotoGroupTVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9757862A6A8DD3FC76631DA10BB7AE3E /* UIImageView+netImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E0FAEC83AD160FACD92CD11148E16B /* UIImageView+netImage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9C4E0DB364FE8BF297E3EF4A697663F7 /* JUAssetManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADFEEE2956F9DBE6D232B9A2EE3EFB5 /* JUAssetManage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D395AEC0AC0DF0AB9D021EC191F4655 /* JuImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE8495E16453FA1A3B5E8EADED56CD6 /* JuImagePickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DEDA99F2DE95E1F353C86FDB43F6B91 /* photo_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 606EA8391111A39B1441DF261E868766 /* photo_select@3x.png */; };
+		9EE8DB77FABB2B41312DD160D26C3355 /* JuProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B39249281D7A79CB3F2DD5861D93789 /* JuProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A049C8246340F183DBE60D68CD324342 /* UIImage+Cropping.h in Headers */ = {isa = PBXBuildFile; fileRef = AF19D6070DB08B89B7C7907E52D90F4B /* UIImage+Cropping.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A55A91D9839A7BF34E6874FBEF589763 /* JuPhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA6BDF8A938D00A6B7041CC459484FD /* JuPhoto-dummy.m */; };
+		A56A2668EF08C566C2A725490D4008D6 /* JuFullWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BB9626DC44BC3B3EA0413A4291F7D8 /* JuFullWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8C9700D49D4E7A2254F4EF568D883FF /* JuZoomScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E25CB7634D4A2ED8C6E981080EDFF7A7 /* JuZoomScaleView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ACD26A133CF0E4A8BCB7568B6EC8FEA7 /* Pods-JuPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD507DD596F96B75417A45F4C7D4C2A /* Pods-JuPhotoBrowser-dummy.m */; };
+		AE60044097903E8A6EFC983028F04C4D /* JuFullWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2AAB8307719506A6C2458174E62D92 /* JuFullWindow.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AF3396A478B3376BD2F74F8B9808EFB0 /* photo_un_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC0314E34D236486EE92DE9F74CAFF1 /* photo_un_select@3x.png */; };
+		B942F06520B5CCA10D5924031413F196 /* JuLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 216D4CCF05C51E5F37D13F560E83C642 /* JuLayout-dummy.m */; };
+		C02158C845A1AE02E17048A00DE66E35 /* JuPhotoOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E6ABA7575C6646D8CAB96FBFBC82F /* JuPhotoOverlayView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C426C6DA3B50B12FE782E299CCCF885C /* JuImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A466338FACA286298F2E64C9CE617863 /* JuImagePickerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C4D6BEB956FE2E6E86C3D7F038A60DEE /* UIView+JuLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 90158EE77F0E270BC0CC0DC5B490B5C3 /* UIView+JuLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C52123F57943824942D1E2751655446B /* JuAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A4522C32884C38CF93D6F0BA9B986 /* JuAnimated.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C565F3524BED1F298C72B584FA25677D /* JuImagesCollectCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 923E658A069E9333EFE30A97F798AF44 /* JuImagesCollectCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C924F5F044B8106D071B535E77B4C916 /* UIImage+Cropping.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD772A456653CD82025FE74D109638B /* UIImage+Cropping.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C966C9C85623EA13B9A6C57E92E5F128 /* UIView+JuLayGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEBD99FF2AD6B0681F85D9C2B8E6241 /* UIView+JuLayGroup.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CC1EED0E7FF3CF41D6126485E9CA71E3 /* photo_original@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 309018FD68FCB84B25CEE54694765E3E /* photo_original@3x.png */; };
+		CC6853319663345678D7B740074EB1C2 /* JuAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 837EC6A05810B450B2C41651FAD9F68B /* JuAnimated.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D17DDA4DD6E9344D67CE1C235C556485 /* JuPhotoGroupTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BC470278B03CCAFCB293F27E9D473F17 /* JuPhotoGroupTVC.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D1BB5C2B5090F7570591006D21BF294A /* JuPhotoCollectionVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E46D5837E312D3CCD986BB5B03A02F6 /* JuPhotoCollectionVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D4A0D49D090830A1AF9F7427532C6FFA /* JuPhotoCollectionFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C781323CE0F903F483E6718F106FD4 /* JuPhotoCollectionFoot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D77A9EAAC8E9281E6566E4DBC28ED14B /* JUProgresswHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 23CF3201D749E82F23A3F4043F6A81BA /* JUProgresswHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF234E16633D0D8E7138B2DFC9ECD671 /* PADocument.h in Headers */ = {isa = PBXBuildFile; fileRef = B33E22C696205D6515B71FFD7F1F6059 /* PADocument.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF27F1572EB8D14D7B38176F857221D7 /* JuLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2C557A0ED9D314BD4370A8CD42A83D /* JuLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E054268392174C06BA65404694F09C6F /* photo_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B2F51DC6210AAC1762C92DC14F53AE /* photo_select@2x.png */; };
+		E1A04E65C3DA975D921FBB76B9B28A26 /* UIImage+PhotoManage.h in Headers */ = {isa = PBXBuildFile; fileRef = B24FBE1B312DE4CE5078D44D5371A522 /* UIImage+PhotoManage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E510A54B574206FB50E6694F730BF56F /* UIView+JuLayGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DA803D1B1760BA4216C2B01A92B587 /* UIView+JuLayGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E904DDFEEDE42D189484F1C448EF9BA4 /* photo_originalUn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F1260DD5DCC51D09F4413B320073B8 /* photo_originalUn@3x.png */; };
+		E908DEB5BD3DA24D72A8ACAA0AC379DC /* JuImagesCollectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F03EDCC2578D3E4E1AB117EFECEC6F9 /* JuImagesCollectView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB23B8124C78A59E6C8C65A7DE700054 /* JuLargeImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D686041988D8E33E6A9CF98E42A462BB /* JuLargeImageVC.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F277566151CA5D2756679CF93C9B0170 /* JuPhotoCollectionVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A54635D348A5F0CDADA25BD5412140 /* JuPhotoCollectionVCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F9896FE27285AC98D3596C23E1BACAD2 /* JUProgresswHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 886143CA7910B80C0C057C3080DA7BF0 /* JUProgresswHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F9CDDB330E5E92741CD4F4D43BFF1BA8 /* PADocumentPickerVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A7D747AA9663CBD3E1A7953FB1A7D5 /* PADocumentPickerVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB987F314B6A5518AEAC70FD39CFC58C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 459D7CEE78EF63214B5C28A53038358C /* UIView+Frame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FC3AB275E4055793A4D0662F8EDAE67F /* PADocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B4102A7F8426171B64C7B16795D2F /* PADocument.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23C5E4790CD7336C3EC13EF00A7AF17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3F2B23BCA15EE257350B712CAF12DE;
+			remoteInfo = JuPhoto;
+		};
+		D19692A2DC192594D46C7CA1D25D2D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C8EC5D876C1E5219EF10F3717C5EA7;
+			remoteInfo = "JuPhoto-JuPhotoResource";
+		};
+		E193478C8F64957A534CEB4CDE44105D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72110691CB601C21F7884D92B9F1D28E;
+			remoteInfo = JuLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C9483CC49F5CECA483092BBEC68D3C /* JuImagesCollectCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuImagesCollectCell.m; path = Source/JuZoomImage/JuImagesCollectCell.m; sourceTree = "<group>"; };
+		09478072BD761B5F13D87DDD42AD4046 /* JuPhotoCollectionVCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuPhotoCollectionVCell.h; path = Source/JuPhotos/JuPhotoCollectionVCell.h; sourceTree = "<group>"; };
+		0A2C557A0ED9D314BD4370A8CD42A83D /* JuLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuLayout.h; path = Source/OCLayout/JuLayout.h; sourceTree = "<group>"; };
+		0AFD5FF201E9BAA718022F5A85136D1E /* JuPhotoGroupCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuPhotoGroupCell.m; path = Source/JuPhotos/JuPhotoGroupCell.m; sourceTree = "<group>"; };
+		0C2AAB8307719506A6C2458174E62D92 /* JuFullWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuFullWindow.m; path = Source/JuZoomImage/JuFullWindow.m; sourceTree = "<group>"; };
+		0D3105EB80205212C93BEB53BFB667F0 /* JuProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuProgressView.m; path = Source/JuZoomImage/JuProgressView.m; sourceTree = "<group>"; };
+		0E46D5837E312D3CCD986BB5B03A02F6 /* JuPhotoCollectionVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuPhotoCollectionVC.h; path = Source/JuPhotos/JuPhotoCollectionVC.h; sourceTree = "<group>"; };
+		1195B4D38225EBBB6972E25CCEC3D5FF /* PADocumentPickerVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PADocumentPickerVC.m; path = Source/JuDocument/PADocumentPickerVC.m; sourceTree = "<group>"; };
+		12AD88CAE669DA020AD224BE5BAB52F9 /* JuPhotoAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuPhotoAlert.m; path = Source/JuPhotoAlert.m; sourceTree = "<group>"; };
+		13D6FE056F755CFF66848CBB9E4E6EC5 /* libPods-JuPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JuPhotoBrowser.a"; path = "libPods-JuPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		175B02D360CEF6425DA94F78CB7F8684 /* Pods-JuPhotoBrowser-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JuPhotoBrowser-acknowledgements.plist"; sourceTree = "<group>"; };
+		195A7DF33C81131BA7498ACB86F3601D /* JUAssetManage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUAssetManage.h; path = Source/JuPhotos/JUAssetManage.h; sourceTree = "<group>"; };
+		1A850857E5389F6CA04E203319CBC41A /* JuLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JuLayout.release.xcconfig; sourceTree = "<group>"; };
+		1C4EE3AFC642D8417072756D3EFC22E8 /* JuZoomScaleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuZoomScaleView.h; path = Source/JuZoomImage/JuZoomScaleView.h; sourceTree = "<group>"; };
+		1DC0314E34D236486EE92DE9F74CAFF1 /* photo_un_select@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_un_select@3x.png"; path = "Source/Resources/photo_un_select@3x.png"; sourceTree = "<group>"; };
+		1DE8495E16453FA1A3B5E8EADED56CD6 /* JuImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuImagePickerController.h; path = Source/JuPhotos/JuImagePickerController.h; sourceTree = "<group>"; };
+		216D4CCF05C51E5F37D13F560E83C642 /* JuLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JuLayout-dummy.m"; sourceTree = "<group>"; };
+		23CF3201D749E82F23A3F4043F6A81BA /* JUProgresswHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUProgresswHUD.h; path = Source/JUProgresswHUD.h; sourceTree = "<group>"; };
+		2483AE2F9A44831940C861B949BDC910 /* photo_un_select@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_un_select@2x.png"; path = "Source/Resources/photo_un_select@2x.png"; sourceTree = "<group>"; };
+		309018FD68FCB84B25CEE54694765E3E /* photo_original@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_original@3x.png"; path = "Source/Resources/photo_original@3x.png"; sourceTree = "<group>"; };
+		34E7B90F9CBC57144032E1406E8FA0B4 /* JuPhotoPickers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuPhotoPickers.h; path = Source/JuPhotoPickers.h; sourceTree = "<group>"; };
+		39DA7439CF51B914A14BAF309B4D970F /* JuPhotoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuPhotoDelegate.h; path = Source/JuPhotos/JuPhotoDelegate.h; sourceTree = "<group>"; };
+		39DC6BDDF6CCEB747BCB77D410C5C6E2 /* JuPhotoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuPhotoConfig.h; path = Source/JuPhotos/JuPhotoConfig.h; sourceTree = "<group>"; };
+		44C781323CE0F903F483E6718F106FD4 /* JuPhotoCollectionFoot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuPhotoCollectionFoot.m; path = Source/JuPhotos/JuPhotoCollectionFoot.m; sourceTree = "<group>"; };
+		459D7CEE78EF63214B5C28A53038358C /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "Source/OCLayout/UIView+Frame.m"; sourceTree = "<group>"; };
+		4B8E6ABA7575C6646D8CAB96FBFBC82F /* JuPhotoOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuPhotoOverlayView.m; path = Source/JuPhotos/JuPhotoOverlayView.m; sourceTree = "<group>"; };
+		4CFC3CD997BCCAC25592ED123F12610C /* JuPhotoResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JuPhotoResource.bundle; path = "JuPhoto-JuPhotoResource.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFB3B9D1AAE6C783BC68DC1DFA40F61 /* UIImageView+netImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+netImage.h"; path = "Source/Deal/UIImageView+netImage.h"; sourceTree = "<group>"; };
+		4F1773B1319FAACBDB1B4C54421E9627 /* JuLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuLayout.m; path = Source/OCLayout/JuLayout.m; sourceTree = "<group>"; };
+		583B179FA85F812C4251A82D373693B6 /* JuDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuDefine.h; path = Source/JuZoomImage/JuDefine.h; sourceTree = "<group>"; };
+		59BF5F921BE7D228ECD87DC254875F3B /* libJuLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJuLayout.a; path = libJuLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0FEE22759E2AFA6D8A8369A948096C /* JuPhotoOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuPhotoOverlayView.h; path = Source/JuPhotos/JuPhotoOverlayView.h; sourceTree = "<group>"; };
+		5B7B95D767A8B6D029DC7367C8330F78 /* JuPhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JuPhoto-prefix.pch"; sourceTree = "<group>"; };
+		5CD507DD596F96B75417A45F4C7D4C2A /* Pods-JuPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JuPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
+		5E4FAA201A5A5B05A2219AA850DECCEE /* JuPhotoGroupTVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuPhotoGroupTVC.h; path = Source/JuPhotos/JuPhotoGroupTVC.h; sourceTree = "<group>"; };
+		5E7734470D51CFADDF8FA0219EE397DF /* JuPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JuPhoto.release.xcconfig; sourceTree = "<group>"; };
+		606EA8391111A39B1441DF261E868766 /* photo_select@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_select@3x.png"; path = "Source/Resources/photo_select@3x.png"; sourceTree = "<group>"; };
+		6B2EEBBF45CC8C6E5D9BBC1D0EC7CDB9 /* JuLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JuLayout-prefix.pch"; sourceTree = "<group>"; };
+		6F03EDCC2578D3E4E1AB117EFECEC6F9 /* JuImagesCollectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuImagesCollectView.h; path = Source/JuZoomImage/JuImagesCollectView.h; sourceTree = "<group>"; };
+		7746D3A8FFBF8C27F9EAA777DF355FC3 /* JuPhotoAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuPhotoAlert.h; path = Source/JuPhotoAlert.h; sourceTree = "<group>"; };
+		7ADFEEE2956F9DBE6D232B9A2EE3EFB5 /* JUAssetManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JUAssetManage.m; path = Source/JuPhotos/JUAssetManage.m; sourceTree = "<group>"; };
+		7B238E9261536E13825DCDE73B537A89 /* UIImage+PhotoManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+PhotoManage.m"; path = "Source/Deal/UIImage+PhotoManage.m"; sourceTree = "<group>"; };
+		7E3DA52F3193B9EC17EB451618F74B53 /* JuAlbumPreviewVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuAlbumPreviewVC.m; path = Source/JuZoomImage/JuAlbumPreviewVC.m; sourceTree = "<group>"; };
+		7E5774D18E9477D55466AF1FC137A443 /* Pods-JuPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JuPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		804DC64363578BCEFCF442F2562D9A24 /* photo_originalUn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_originalUn@2x.png"; path = "Source/Resources/photo_originalUn@2x.png"; sourceTree = "<group>"; };
+		818966894F4E0C022B0B28E563715D99 /* UIView+JuLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JuLayout.m"; path = "Source/OCLayout/UIView+JuLayout.m"; sourceTree = "<group>"; };
+		837EC6A05810B450B2C41651FAD9F68B /* JuAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuAnimated.h; path = Source/JuZoomImage/JuAnimated.h; sourceTree = "<group>"; };
+		886143CA7910B80C0C057C3080DA7BF0 /* JUProgresswHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JUProgresswHUD.m; path = Source/JUProgresswHUD.m; sourceTree = "<group>"; };
+		8B0552EE4F7EBA96C4B08CFB5A23D256 /* libJuPhoto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJuPhoto.a; path = libJuPhoto.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B905F7DF820934A7EBF18F44CAD4741 /* JuAlbumPreviewVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuAlbumPreviewVC.h; path = Source/JuZoomImage/JuAlbumPreviewVC.h; sourceTree = "<group>"; };
+		90158EE77F0E270BC0CC0DC5B490B5C3 /* UIView+JuLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JuLayout.h"; path = "Source/OCLayout/UIView+JuLayout.h"; sourceTree = "<group>"; };
+		923E658A069E9333EFE30A97F798AF44 /* JuImagesCollectCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuImagesCollectCell.h; path = Source/JuZoomImage/JuImagesCollectCell.h; sourceTree = "<group>"; };
+		92A7D747AA9663CBD3E1A7953FB1A7D5 /* PADocumentPickerVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PADocumentPickerVC.h; path = Source/JuDocument/PADocumentPickerVC.h; sourceTree = "<group>"; };
+		9784C192CD031C4DE6B458E7FFCA503B /* JuLayoutFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuLayoutFrame.h; path = Source/OCLayout/JuLayoutFrame.h; sourceTree = "<group>"; };
+		9846F1C3C0024C3A51D0C9EC5767844F /* JuImageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuImageObject.m; path = Source/JuZoomImage/JuImageObject.m; sourceTree = "<group>"; };
+		9975183A81E7A61F07E0C7394E835AC2 /* JuPhotoPickers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuPhotoPickers.m; path = Source/JuPhotoPickers.m; sourceTree = "<group>"; };
+		9B39249281D7A79CB3F2DD5861D93789 /* JuProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuProgressView.h; path = Source/JuZoomImage/JuProgressView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE27648CE200A887A7054BD8DFD5DF1 /* ResourceBundle-JuPhotoResource-JuPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JuPhotoResource-JuPhoto-Info.plist"; sourceTree = "<group>"; };
+		A085C2DBFEE1D0EAA904C521CCFDABA4 /* UIView+JuConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JuConstraint.h"; path = "Source/OCLayout/UIView+JuConstraint.h"; sourceTree = "<group>"; };
+		A466338FACA286298F2E64C9CE617863 /* JuImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuImagePickerController.m; path = Source/JuPhotos/JuImagePickerController.m; sourceTree = "<group>"; };
+		A5A54635D348A5F0CDADA25BD5412140 /* JuPhotoCollectionVCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuPhotoCollectionVCell.m; path = Source/JuPhotos/JuPhotoCollectionVCell.m; sourceTree = "<group>"; };
+		A6BB9626DC44BC3B3EA0413A4291F7D8 /* JuFullWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuFullWindow.h; path = Source/JuZoomImage/JuFullWindow.h; sourceTree = "<group>"; };
+		AF19D6070DB08B89B7C7907E52D90F4B /* UIImage+Cropping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Cropping.h"; path = "Source/Deal/UIImage+Cropping.h"; sourceTree = "<group>"; };
+		B1B2F51DC6210AAC1762C92DC14F53AE /* photo_select@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_select@2x.png"; path = "Source/Resources/photo_select@2x.png"; sourceTree = "<group>"; };
+		B24FBE1B312DE4CE5078D44D5371A522 /* UIImage+PhotoManage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PhotoManage.h"; path = "Source/Deal/UIImage+PhotoManage.h"; sourceTree = "<group>"; };
+		B30B54D686CAC4B15BC0854A246AEA3E /* Pods-JuPhotoBrowser-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JuPhotoBrowser-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B33E22C696205D6515B71FFD7F1F6059 /* PADocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PADocument.h; path = Source/JuDocument/PADocument.h; sourceTree = "<group>"; };
+		BBDF8887286853B4B41DC592D9B03973 /* JuPhotoCollectionFoot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuPhotoCollectionFoot.h; path = Source/JuPhotos/JuPhotoCollectionFoot.h; sourceTree = "<group>"; };
+		BC470278B03CCAFCB293F27E9D473F17 /* JuPhotoGroupTVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuPhotoGroupTVC.m; path = Source/JuPhotos/JuPhotoGroupTVC.m; sourceTree = "<group>"; };
+		C1B1213CC440C6AA2CC33E3373855D77 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "Source/OCLayout/UIView+Frame.h"; sourceTree = "<group>"; };
+		C26A620B9C587A530215ED85125E547C /* JuImageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuImageObject.h; path = Source/JuZoomImage/JuImageObject.h; sourceTree = "<group>"; };
+		C77B4102A7F8426171B64C7B16795D2F /* PADocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PADocument.m; path = Source/JuDocument/PADocument.m; sourceTree = "<group>"; };
+		C81CB41E3D8FEA0E6E3A8ADE5D7B6022 /* JuPhoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JuPhoto.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBB905234FD1944F8E2C300B2BB58636 /* JuPhotoGroupCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuPhotoGroupCell.h; path = Source/JuPhotos/JuPhotoGroupCell.h; sourceTree = "<group>"; };
+		D1202F03A7EC0CBC75BFDE4B3017CE29 /* JuPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JuPhoto.debug.xcconfig; sourceTree = "<group>"; };
+		D16D06C9EB9171AE145E735A76A77652 /* JuLargeImageVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuLargeImageVC.h; path = Source/JuZoomImage/JuLargeImageVC.h; sourceTree = "<group>"; };
+		D23A3F28150F4C28DE99CE902723FDA3 /* JuLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JuLayout.debug.xcconfig; sourceTree = "<group>"; };
+		D5171AE094205F444E31089DCAC242AD /* JuImagesCollectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuImagesCollectView.m; path = Source/JuZoomImage/JuImagesCollectView.m; sourceTree = "<group>"; };
+		D686041988D8E33E6A9CF98E42A462BB /* JuLargeImageVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuLargeImageVC.m; path = Source/JuZoomImage/JuLargeImageVC.m; sourceTree = "<group>"; };
+		DCEBD99FF2AD6B0681F85D9C2B8E6241 /* UIView+JuLayGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JuLayGroup.m"; path = "Source/OCLayout/UIView+JuLayGroup.m"; sourceTree = "<group>"; };
+		E08C5B658F0C5EF4BA0F706BFE245E2E /* Pods-JuPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JuPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		E0A59E3ABF973C6C1A9C43C7C24E05AD /* photo_original@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_original@2x.png"; path = "Source/Resources/photo_original@2x.png"; sourceTree = "<group>"; };
+		E1E0FAEC83AD160FACD92CD11148E16B /* UIImageView+netImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+netImage.m"; path = "Source/Deal/UIImageView+netImage.m"; sourceTree = "<group>"; };
+		E25CB7634D4A2ED8C6E981080EDFF7A7 /* JuZoomScaleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuZoomScaleView.m; path = Source/JuZoomImage/JuZoomScaleView.m; sourceTree = "<group>"; };
+		E3852F70B85E650801FD1B858066D25B /* JuPhotoCollectionVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuPhotoCollectionVC.m; path = Source/JuPhotos/JuPhotoCollectionVC.m; sourceTree = "<group>"; };
+		E5DA803D1B1760BA4216C2B01A92B587 /* UIView+JuLayGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JuLayGroup.h"; path = "Source/OCLayout/UIView+JuLayGroup.h"; sourceTree = "<group>"; };
+		ECA6BDF8A938D00A6B7041CC459484FD /* JuPhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JuPhoto-dummy.m"; sourceTree = "<group>"; };
+		EFD772A456653CD82025FE74D109638B /* UIImage+Cropping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Cropping.m"; path = "Source/Deal/UIImage+Cropping.m"; sourceTree = "<group>"; };
+		F075854CF7756E7D9F2E296F9022CC7B /* Pods-JuPhotoBrowser-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JuPhotoBrowser-resources.sh"; sourceTree = "<group>"; };
+		F2F1260DD5DCC51D09F4413B320073B8 /* photo_originalUn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_originalUn@3x.png"; path = "Source/Resources/photo_originalUn@3x.png"; sourceTree = "<group>"; };
+		F7AD0A125D253A180FB05EE9932746F7 /* UIView+JuConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JuConstraint.m"; path = "Source/OCLayout/UIView+JuConstraint.m"; sourceTree = "<group>"; };
+		FE3A4522C32884C38CF93D6F0BA9B986 /* JuAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JuAnimated.m; path = Source/JuZoomImage/JuAnimated.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		087474FE3330030BECBFF231825DC43A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8592BC169E56E8E1D5D089A02946E3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9C0A6448724DA0EFABD0084B417444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74FD08A4ABC695916DC8A07E6D63A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D025DA6532A1BC72717723DDA45753 /* JuDocument */ = {
+			isa = PBXGroup;
+			children = (
+				B33E22C696205D6515B71FFD7F1F6059 /* PADocument.h */,
+				C77B4102A7F8426171B64C7B16795D2F /* PADocument.m */,
+				92A7D747AA9663CBD3E1A7953FB1A7D5 /* PADocumentPickerVC.h */,
+				1195B4D38225EBBB6972E25CCEC3D5FF /* PADocumentPickerVC.m */,
+			);
+			name = JuDocument;
+			sourceTree = "<group>";
+		};
+		13341597CAEBF92137594A9E6989905D /* LayoutObjC */ = {
+			isa = PBXGroup;
+			children = (
+				0A2C557A0ED9D314BD4370A8CD42A83D /* JuLayout.h */,
+				4F1773B1319FAACBDB1B4C54421E9627 /* JuLayout.m */,
+				9784C192CD031C4DE6B458E7FFCA503B /* JuLayoutFrame.h */,
+				C1B1213CC440C6AA2CC33E3373855D77 /* UIView+Frame.h */,
+				459D7CEE78EF63214B5C28A53038358C /* UIView+Frame.m */,
+				A085C2DBFEE1D0EAA904C521CCFDABA4 /* UIView+JuConstraint.h */,
+				F7AD0A125D253A180FB05EE9932746F7 /* UIView+JuConstraint.m */,
+				E5DA803D1B1760BA4216C2B01A92B587 /* UIView+JuLayGroup.h */,
+				DCEBD99FF2AD6B0681F85D9C2B8E6241 /* UIView+JuLayGroup.m */,
+				90158EE77F0E270BC0CC0DC5B490B5C3 /* UIView+JuLayout.h */,
+				818966894F4E0C022B0B28E563715D99 /* UIView+JuLayout.m */,
+			);
+			name = LayoutObjC;
+			sourceTree = "<group>";
+		};
+		1B7D740CCC37F101001F35EDB3EFC463 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7746D3A8FFBF8C27F9EAA777DF355FC3 /* JuPhotoAlert.h */,
+				12AD88CAE669DA020AD224BE5BAB52F9 /* JuPhotoAlert.m */,
+				34E7B90F9CBC57144032E1406E8FA0B4 /* JuPhotoPickers.h */,
+				9975183A81E7A61F07E0C7394E835AC2 /* JuPhotoPickers.m */,
+				23CF3201D749E82F23A3F4043F6A81BA /* JUProgresswHUD.h */,
+				886143CA7910B80C0C057C3080DA7BF0 /* JUProgresswHUD.m */,
+				FE915E9643CC45AFF786F20B2AD62F70 /* Deal */,
+				08D025DA6532A1BC72717723DDA45753 /* JuDocument */,
+				CC3C4C60274BC942852CE4E5C48CB850 /* JuPhotos */,
+				F22DEFBEE628721E4C77A1D969A75106 /* JuZoomImage */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1F811BDAE1919C19B3E316D710F9684A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC626C334BB76562918E05AA969F293 /* Pods-JuPhotoBrowser */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2FCEBF0EF25FB9FD91E716B2211F578A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				216D4CCF05C51E5F37D13F560E83C642 /* JuLayout-dummy.m */,
+				6B2EEBBF45CC8C6E5D9BBC1D0EC7CDB9 /* JuLayout-prefix.pch */,
+				D23A3F28150F4C28DE99CE902723FDA3 /* JuLayout.debug.xcconfig */,
+				1A850857E5389F6CA04E203319CBC41A /* JuLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JuLayout";
+			sourceTree = "<group>";
+		};
+		3578E3773D47E37E96B2A0948427419F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C81CB41E3D8FEA0E6E3A8ADE5D7B6022 /* JuPhoto.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8CC626C334BB76562918E05AA969F293 /* Pods-JuPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B30B54D686CAC4B15BC0854A246AEA3E /* Pods-JuPhotoBrowser-acknowledgements.markdown */,
+				175B02D360CEF6425DA94F78CB7F8684 /* Pods-JuPhotoBrowser-acknowledgements.plist */,
+				5CD507DD596F96B75417A45F4C7D4C2A /* Pods-JuPhotoBrowser-dummy.m */,
+				F075854CF7756E7D9F2E296F9022CC7B /* Pods-JuPhotoBrowser-resources.sh */,
+				7E5774D18E9477D55466AF1FC137A443 /* Pods-JuPhotoBrowser.debug.xcconfig */,
+				E08C5B658F0C5EF4BA0F706BFE245E2E /* Pods-JuPhotoBrowser.release.xcconfig */,
+			);
+			name = "Pods-JuPhotoBrowser";
+			path = "Target Support Files/Pods-JuPhotoBrowser";
+			sourceTree = "<group>";
+		};
+		907F60B45EB96D4BC6882EC1F0F37902 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CA4CDBBC74B58075CC107D71B30A19A /* JuLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CA4CDBBC74B58075CC107D71B30A19A /* JuLayout */ = {
+			isa = PBXGroup;
+			children = (
+				13341597CAEBF92137594A9E6989905D /* LayoutObjC */,
+				2FCEBF0EF25FB9FD91E716B2211F578A /* Support Files */,
+			);
+			name = JuLayout;
+			path = JuLayout;
+			sourceTree = "<group>";
+		};
+		A735773A8C7027F4EFC8901635A21CF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0A59E3ABF973C6C1A9C43C7C24E05AD /* photo_original@2x.png */,
+				309018FD68FCB84B25CEE54694765E3E /* photo_original@3x.png */,
+				804DC64363578BCEFCF442F2562D9A24 /* photo_originalUn@2x.png */,
+				F2F1260DD5DCC51D09F4413B320073B8 /* photo_originalUn@3x.png */,
+				B1B2F51DC6210AAC1762C92DC14F53AE /* photo_select@2x.png */,
+				606EA8391111A39B1441DF261E868766 /* photo_select@3x.png */,
+				2483AE2F9A44831940C861B949BDC910 /* photo_un_select@2x.png */,
+				1DC0314E34D236486EE92DE9F74CAFF1 /* photo_un_select@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C79AAFDDA1F1A1C10F320648D120751F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C93CB111F6F59BA35BF17D76F3CE7A90 /* JuPhoto */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C93CB111F6F59BA35BF17D76F3CE7A90 /* JuPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				1B7D740CCC37F101001F35EDB3EFC463 /* Core */,
+				3578E3773D47E37E96B2A0948427419F /* Pod */,
+				A735773A8C7027F4EFC8901635A21CF5 /* Resources */,
+				E3A85D23FD89BBA777CF46CACAD52F3D /* Support Files */,
+			);
+			name = JuPhoto;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CC3C4C60274BC942852CE4E5C48CB850 /* JuPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				195A7DF33C81131BA7498ACB86F3601D /* JUAssetManage.h */,
+				7ADFEEE2956F9DBE6D232B9A2EE3EFB5 /* JUAssetManage.m */,
+				1DE8495E16453FA1A3B5E8EADED56CD6 /* JuImagePickerController.h */,
+				A466338FACA286298F2E64C9CE617863 /* JuImagePickerController.m */,
+				BBDF8887286853B4B41DC592D9B03973 /* JuPhotoCollectionFoot.h */,
+				44C781323CE0F903F483E6718F106FD4 /* JuPhotoCollectionFoot.m */,
+				0E46D5837E312D3CCD986BB5B03A02F6 /* JuPhotoCollectionVC.h */,
+				E3852F70B85E650801FD1B858066D25B /* JuPhotoCollectionVC.m */,
+				09478072BD761B5F13D87DDD42AD4046 /* JuPhotoCollectionVCell.h */,
+				A5A54635D348A5F0CDADA25BD5412140 /* JuPhotoCollectionVCell.m */,
+				39DC6BDDF6CCEB747BCB77D410C5C6E2 /* JuPhotoConfig.h */,
+				39DA7439CF51B914A14BAF309B4D970F /* JuPhotoDelegate.h */,
+				CBB905234FD1944F8E2C300B2BB58636 /* JuPhotoGroupCell.h */,
+				0AFD5FF201E9BAA718022F5A85136D1E /* JuPhotoGroupCell.m */,
+				5E4FAA201A5A5B05A2219AA850DECCEE /* JuPhotoGroupTVC.h */,
+				BC470278B03CCAFCB293F27E9D473F17 /* JuPhotoGroupTVC.m */,
+				5A0FEE22759E2AFA6D8A8369A948096C /* JuPhotoOverlayView.h */,
+				4B8E6ABA7575C6646D8CAB96FBFBC82F /* JuPhotoOverlayView.m */,
+			);
+			name = JuPhotos;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C79AAFDDA1F1A1C10F320648D120751F /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				907F60B45EB96D4BC6882EC1F0F37902 /* Pods */,
+				FD1C07C38556BDC7A10B9C99CED86E47 /* Products */,
+				1F811BDAE1919C19B3E316D710F9684A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3A85D23FD89BBA777CF46CACAD52F3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6BDF8A938D00A6B7041CC459484FD /* JuPhoto-dummy.m */,
+				5B7B95D767A8B6D029DC7367C8330F78 /* JuPhoto-prefix.pch */,
+				D1202F03A7EC0CBC75BFDE4B3017CE29 /* JuPhoto.debug.xcconfig */,
+				5E7734470D51CFADDF8FA0219EE397DF /* JuPhoto.release.xcconfig */,
+				9DE27648CE200A887A7054BD8DFD5DF1 /* ResourceBundle-JuPhotoResource-JuPhoto-Info.plist */,
+			);
+			name = "Support Files";
+			path = "JuPhotoDemo/Pods/Target Support Files/JuPhoto";
+			sourceTree = "<group>";
+		};
+		F22DEFBEE628721E4C77A1D969A75106 /* JuZoomImage */ = {
+			isa = PBXGroup;
+			children = (
+				8B905F7DF820934A7EBF18F44CAD4741 /* JuAlbumPreviewVC.h */,
+				7E3DA52F3193B9EC17EB451618F74B53 /* JuAlbumPreviewVC.m */,
+				837EC6A05810B450B2C41651FAD9F68B /* JuAnimated.h */,
+				FE3A4522C32884C38CF93D6F0BA9B986 /* JuAnimated.m */,
+				583B179FA85F812C4251A82D373693B6 /* JuDefine.h */,
+				A6BB9626DC44BC3B3EA0413A4291F7D8 /* JuFullWindow.h */,
+				0C2AAB8307719506A6C2458174E62D92 /* JuFullWindow.m */,
+				C26A620B9C587A530215ED85125E547C /* JuImageObject.h */,
+				9846F1C3C0024C3A51D0C9EC5767844F /* JuImageObject.m */,
+				923E658A069E9333EFE30A97F798AF44 /* JuImagesCollectCell.h */,
+				07C9483CC49F5CECA483092BBEC68D3C /* JuImagesCollectCell.m */,
+				6F03EDCC2578D3E4E1AB117EFECEC6F9 /* JuImagesCollectView.h */,
+				D5171AE094205F444E31089DCAC242AD /* JuImagesCollectView.m */,
+				D16D06C9EB9171AE145E735A76A77652 /* JuLargeImageVC.h */,
+				D686041988D8E33E6A9CF98E42A462BB /* JuLargeImageVC.m */,
+				9B39249281D7A79CB3F2DD5861D93789 /* JuProgressView.h */,
+				0D3105EB80205212C93BEB53BFB667F0 /* JuProgressView.m */,
+				1C4EE3AFC642D8417072756D3EFC22E8 /* JuZoomScaleView.h */,
+				E25CB7634D4A2ED8C6E981080EDFF7A7 /* JuZoomScaleView.m */,
+			);
+			name = JuZoomImage;
+			sourceTree = "<group>";
+		};
+		FD1C07C38556BDC7A10B9C99CED86E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CFC3CD997BCCAC25592ED123F12610C /* JuPhotoResource.bundle */,
+				59BF5F921BE7D228ECD87DC254875F3B /* libJuLayout.a */,
+				8B0552EE4F7EBA96C4B08CFB5A23D256 /* libJuPhoto.a */,
+				13D6FE056F755CFF66848CBB9E4E6EC5 /* libPods-JuPhotoBrowser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE915E9643CC45AFF786F20B2AD62F70 /* Deal */ = {
+			isa = PBXGroup;
+			children = (
+				AF19D6070DB08B89B7C7907E52D90F4B /* UIImage+Cropping.h */,
+				EFD772A456653CD82025FE74D109638B /* UIImage+Cropping.m */,
+				B24FBE1B312DE4CE5078D44D5371A522 /* UIImage+PhotoManage.h */,
+				7B238E9261536E13825DCDE73B537A89 /* UIImage+PhotoManage.m */,
+				4EFB3B9D1AAE6C783BC68DC1DFA40F61 /* UIImageView+netImage.h */,
+				E1E0FAEC83AD160FACD92CD11148E16B /* UIImageView+netImage.m */,
+			);
+			name = Deal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A8AB370AD401D3787BB6E8982DA2C84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF27F1572EB8D14D7B38176F857221D7 /* JuLayout.h in Headers */,
+				01334CF703F5FBBE5C8F713033BC960C /* JuLayoutFrame.h in Headers */,
+				712ADE69A3567569C27E05223215FF5A /* UIView+Frame.h in Headers */,
+				91552B47CED1B8CC0B1D5FA21E123EF9 /* UIView+JuConstraint.h in Headers */,
+				E510A54B574206FB50E6694F730BF56F /* UIView+JuLayGroup.h in Headers */,
+				C4D6BEB956FE2E6E86C3D7F038A60DEE /* UIView+JuLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3448B0C49738DAB374FEC83155CF1DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F9C7EFD19185A8E74BD92052A5C8BF /* JuAlbumPreviewVC.h in Headers */,
+				CC6853319663345678D7B740074EB1C2 /* JuAnimated.h in Headers */,
+				2FC28AF624B95E67CF8DCA3B70D47229 /* JUAssetManage.h in Headers */,
+				0DEDE5861CA1D80C10E780853BDD216C /* JuDefine.h in Headers */,
+				A56A2668EF08C566C2A725490D4008D6 /* JuFullWindow.h in Headers */,
+				50A5CC48196B3A6AB0CCB5C097C7964E /* JuImageObject.h in Headers */,
+				9D395AEC0AC0DF0AB9D021EC191F4655 /* JuImagePickerController.h in Headers */,
+				C565F3524BED1F298C72B584FA25677D /* JuImagesCollectCell.h in Headers */,
+				E908DEB5BD3DA24D72A8ACAA0AC379DC /* JuImagesCollectView.h in Headers */,
+				25D3BCDAC96F779242A32724118C218A /* JuLargeImageVC.h in Headers */,
+				4BBF9B9FD9FA364F547B691250C5A835 /* JuPhotoAlert.h in Headers */,
+				4AB57F9368AEBB28BD28BD7CF309D29F /* JuPhotoCollectionFoot.h in Headers */,
+				D1BB5C2B5090F7570591006D21BF294A /* JuPhotoCollectionVC.h in Headers */,
+				419360697BAD77EADA5775B333DB5E7A /* JuPhotoCollectionVCell.h in Headers */,
+				58467B3C3C997122F43B6C0D25BFDB7F /* JuPhotoConfig.h in Headers */,
+				5ACFB96DA2F41869BA6626123D801EB5 /* JuPhotoDelegate.h in Headers */,
+				2523B2538CF5A87513749E007703C22E /* JuPhotoGroupCell.h in Headers */,
+				9327508822EA0D3EC73751A7949FD9AB /* JuPhotoGroupTVC.h in Headers */,
+				3D8D412D11195F0D29761600EF582023 /* JuPhotoOverlayView.h in Headers */,
+				529E911FB0F45D18BA94AA99B1343ABB /* JuPhotoPickers.h in Headers */,
+				9EE8DB77FABB2B41312DD160D26C3355 /* JuProgressView.h in Headers */,
+				D77A9EAAC8E9281E6566E4DBC28ED14B /* JUProgresswHUD.h in Headers */,
+				867AB668AEDC8EAA9D1FDC7D433CF4EB /* JuZoomScaleView.h in Headers */,
+				DF234E16633D0D8E7138B2DFC9ECD671 /* PADocument.h in Headers */,
+				F9CDDB330E5E92741CD4F4D43BFF1BA8 /* PADocumentPickerVC.h in Headers */,
+				A049C8246340F183DBE60D68CD324342 /* UIImage+Cropping.h in Headers */,
+				E1A04E65C3DA975D921FBB76B9B28A26 /* UIImage+PhotoManage.h in Headers */,
+				24E4792864EB706750427D272B95CB27 /* UIImageView+netImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F986D689C0D111DD3EFB7B1271A68471 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04C8EC5D876C1E5219EF10F3717C5EA7 /* JuPhoto-JuPhotoResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D6258C0A377314DA77AAB6C8BA8A03 /* Build configuration list for PBXNativeTarget "JuPhoto-JuPhotoResource" */;
+			buildPhases = (
+				275486E63C9823AE5A48EBAAD1426E63 /* Sources */,
+				BB9C0A6448724DA0EFABD0084B417444 /* Frameworks */,
+				D29CC2B863D94320DB79151DFF8F2DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JuPhoto-JuPhotoResource";
+			productName = "JuPhoto-JuPhotoResource";
+			productReference = 4CFC3CD997BCCAC25592ED123F12610C /* JuPhotoResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		72110691CB601C21F7884D92B9F1D28E /* JuLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E4C4B65561791D26BA3C31EBE4D234 /* Build configuration list for PBXNativeTarget "JuLayout" */;
+			buildPhases = (
+				6A8AB370AD401D3787BB6E8982DA2C84 /* Headers */,
+				4AC32C2C47908A022EFD841DB5910C1A /* Sources */,
+				D74FD08A4ABC695916DC8A07E6D63A30 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuLayout;
+			productName = JuLayout;
+			productReference = 59BF5F921BE7D228ECD87DC254875F3B /* libJuLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D14B7CA7CA1F9667A71489AC69C91918 /* Pods-JuPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2F38F8240379A1ACFBE35A4C617251 /* Build configuration list for PBXNativeTarget "Pods-JuPhotoBrowser" */;
+			buildPhases = (
+				F986D689C0D111DD3EFB7B1271A68471 /* Headers */,
+				86A4CEA8FABF70F408A5EB660328BA30 /* Sources */,
+				087474FE3330030BECBFF231825DC43A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5B054A10959C184A9D29B31978DE14 /* PBXTargetDependency */,
+				A6862C13969C22EA771408B7D2F7FD5B /* PBXTargetDependency */,
+			);
+			name = "Pods-JuPhotoBrowser";
+			productName = "Pods-JuPhotoBrowser";
+			productReference = 13D6FE056F755CFF66848CBB9E4E6EC5 /* libPods-JuPhotoBrowser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD3F2B23BCA15EE257350B712CAF12DE /* JuPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388539B753974A0289AF4A0816739503 /* Build configuration list for PBXNativeTarget "JuPhoto" */;
+			buildPhases = (
+				E3448B0C49738DAB374FEC83155CF1DD /* Headers */,
+				651369B997B2A124E89223707CAFCB7B /* Sources */,
+				8592BC169E56E8E1D5D089A02946E3DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAA5AA3E34B279E0B99B8830ED107562 /* PBXTargetDependency */,
+			);
+			name = JuPhoto;
+			productName = JuPhoto;
+			productReference = 8B0552EE4F7EBA96C4B08CFB5A23D256 /* libJuPhoto.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FD1C07C38556BDC7A10B9C99CED86E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72110691CB601C21F7884D92B9F1D28E /* JuLayout */,
+				FD3F2B23BCA15EE257350B712CAF12DE /* JuPhoto */,
+				04C8EC5D876C1E5219EF10F3717C5EA7 /* JuPhoto-JuPhotoResource */,
+				D14B7CA7CA1F9667A71489AC69C91918 /* Pods-JuPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29CC2B863D94320DB79151DFF8F2DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7569D9128371C88C24CFFAE1806451BD /* photo_original@2x.png in Resources */,
+				CC1EED0E7FF3CF41D6126485E9CA71E3 /* photo_original@3x.png in Resources */,
+				8E00031294117E4AAD9C3C148C69F6A0 /* photo_originalUn@2x.png in Resources */,
+				E904DDFEEDE42D189484F1C448EF9BA4 /* photo_originalUn@3x.png in Resources */,
+				E054268392174C06BA65404694F09C6F /* photo_select@2x.png in Resources */,
+				9DEDA99F2DE95E1F353C86FDB43F6B91 /* photo_select@3x.png in Resources */,
+				194DDFA5E9797BEB5A19F543D74B3758 /* photo_un_select@2x.png in Resources */,
+				AF3396A478B3376BD2F74F8B9808EFB0 /* photo_un_select@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275486E63C9823AE5A48EBAAD1426E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC32C2C47908A022EFD841DB5910C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B942F06520B5CCA10D5924031413F196 /* JuLayout-dummy.m in Sources */,
+				35E45BF5DB4F1454011B5FA6B34DF167 /* JuLayout.m in Sources */,
+				FB987F314B6A5518AEAC70FD39CFC58C /* UIView+Frame.m in Sources */,
+				57737A83E55AA1971D7C5AAC392BCDE7 /* UIView+JuConstraint.m in Sources */,
+				C966C9C85623EA13B9A6C57E92E5F128 /* UIView+JuLayGroup.m in Sources */,
+				823157C506127FB471FC9CCA9B2EBC57 /* UIView+JuLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651369B997B2A124E89223707CAFCB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF819EA54BD2F6B0F47E14A8A4DC03A /* JuAlbumPreviewVC.m in Sources */,
+				C52123F57943824942D1E2751655446B /* JuAnimated.m in Sources */,
+				9C4E0DB364FE8BF297E3EF4A697663F7 /* JUAssetManage.m in Sources */,
+				AE60044097903E8A6EFC983028F04C4D /* JuFullWindow.m in Sources */,
+				4610B1AAA249B2EE3E4504ABA62D802C /* JuImageObject.m in Sources */,
+				C426C6DA3B50B12FE782E299CCCF885C /* JuImagePickerController.m in Sources */,
+				66D8CFF9FE5A2E63601582F4D18F0C18 /* JuImagesCollectCell.m in Sources */,
+				6C30BDC765CE0F973392002453A1CE14 /* JuImagesCollectView.m in Sources */,
+				EB23B8124C78A59E6C8C65A7DE700054 /* JuLargeImageVC.m in Sources */,
+				A55A91D9839A7BF34E6874FBEF589763 /* JuPhoto-dummy.m in Sources */,
+				7B68C1679895E222121D2D4EA5D98D8E /* JuPhotoAlert.m in Sources */,
+				D4A0D49D090830A1AF9F7427532C6FFA /* JuPhotoCollectionFoot.m in Sources */,
+				80C08DA0B578C4B86D66092574D91A4A /* JuPhotoCollectionVC.m in Sources */,
+				F277566151CA5D2756679CF93C9B0170 /* JuPhotoCollectionVCell.m in Sources */,
+				83802C3F1C604D835CCD550D066F5D04 /* JuPhotoGroupCell.m in Sources */,
+				D17DDA4DD6E9344D67CE1C235C556485 /* JuPhotoGroupTVC.m in Sources */,
+				C02158C845A1AE02E17048A00DE66E35 /* JuPhotoOverlayView.m in Sources */,
+				2B73FBEA2F5CB1A912907E5951D13B0A /* JuPhotoPickers.m in Sources */,
+				1D577FFE9655FF3B05651F932AC0D480 /* JuProgressView.m in Sources */,
+				F9896FE27285AC98D3596C23E1BACAD2 /* JUProgresswHUD.m in Sources */,
+				A8C9700D49D4E7A2254F4EF568D883FF /* JuZoomScaleView.m in Sources */,
+				FC3AB275E4055793A4D0662F8EDAE67F /* PADocument.m in Sources */,
+				22391EBA5160B3A3EE42C094DCA231C6 /* PADocumentPickerVC.m in Sources */,
+				C924F5F044B8106D071B535E77B4C916 /* UIImage+Cropping.m in Sources */,
+				30095A22CA465A417BD37B99A8F9B83B /* UIImage+PhotoManage.m in Sources */,
+				9757862A6A8DD3FC76631DA10BB7AE3E /* UIImageView+netImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A4CEA8FABF70F408A5EB660328BA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD26A133CF0E4A8BCB7568B6EC8FEA7 /* Pods-JuPhotoBrowser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A5B054A10959C184A9D29B31978DE14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JuLayout;
+			target = 72110691CB601C21F7884D92B9F1D28E /* JuLayout */;
+			targetProxy = E193478C8F64957A534CEB4CDE44105D /* PBXContainerItemProxy */;
+		};
+		A6862C13969C22EA771408B7D2F7FD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JuPhoto;
+			target = FD3F2B23BCA15EE257350B712CAF12DE /* JuPhoto */;
+			targetProxy = 23C5E4790CD7336C3EC13EF00A7AF17D /* PBXContainerItemProxy */;
+		};
+		CAA5AA3E34B279E0B99B8830ED107562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JuPhoto-JuPhotoResource";
+			target = 04C8EC5D876C1E5219EF10F3717C5EA7 /* JuPhoto-JuPhotoResource */;
+			targetProxy = D19692A2DC192594D46C7CA1D25D2D61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5717097C15BBFDB193F4B2038ECBC5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08C5B658F0C5EF4BA0F706BFE245E2E /* Pods-JuPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61605728550DEF13EB47DA824EA66ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23A3F28150F4C28DE99CE902723FDA3 /* JuLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JuLayout/JuLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JuLayout;
+				PRODUCT_NAME = JuLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0505D59B80FC92F9BF2C65339679BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1202F03A7EC0CBC75BFDE4B3017CE29 /* JuPhoto.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JuPhoto/JuPhoto-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JuPhoto;
+				PRODUCT_NAME = JuPhoto;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC1DFAB4302E8C99EDE421689EA7321D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7734470D51CFADDF8FA0219EE397DF /* JuPhoto.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JuPhoto/JuPhoto-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JuPhoto;
+				PRODUCT_NAME = JuPhoto;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2B4C38B1F8F198B4E10E62122F6D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7734470D51CFADDF8FA0219EE397DF /* JuPhoto.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JuPhoto";
+				IBSC_MODULE = JuPhoto;
+				INFOPLIST_FILE = "Target Support Files/JuPhoto/ResourceBundle-JuPhotoResource-JuPhoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JuPhotoResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E45F1B6EE983CE86543E00A7D0F3FC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1202F03A7EC0CBC75BFDE4B3017CE29 /* JuPhoto.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JuPhoto";
+				IBSC_MODULE = JuPhoto;
+				INFOPLIST_FILE = "Target Support Files/JuPhoto/ResourceBundle-JuPhotoResource-JuPhoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JuPhotoResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F19C85F06812F2B276D5EF09BAA9E189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5774D18E9477D55466AF1FC137A443 /* Pods-JuPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCD3F2837208D09F5C531D41681150BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A850857E5389F6CA04E203319CBC41A /* JuLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JuLayout/JuLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JuLayout;
+				PRODUCT_NAME = JuLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388539B753974A0289AF4A0816739503 /* Build configuration list for PBXNativeTarget "JuPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0505D59B80FC92F9BF2C65339679BE3 /* Debug */,
+				BC1DFAB4302E8C99EDE421689EA7321D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2F38F8240379A1ACFBE35A4C617251 /* Build configuration list for PBXNativeTarget "Pods-JuPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19C85F06812F2B276D5EF09BAA9E189 /* Debug */,
+				5717097C15BBFDB193F4B2038ECBC5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E4C4B65561791D26BA3C31EBE4D234 /* Build configuration list for PBXNativeTarget "JuLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61605728550DEF13EB47DA824EA66ADC /* Debug */,
+				FCD3F2837208D09F5C531D41681150BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D6258C0A377314DA77AAB6C8BA8A03 /* Build configuration list for PBXNativeTarget "JuPhoto-JuPhotoResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F1B6EE983CE86543E00A7D0F3FC4D /* Debug */,
+				CE2B4C38B1F8F198B4E10E62122F6D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
