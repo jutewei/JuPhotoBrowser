@@ -17,10 +17,13 @@
   "source": {
     "git": "https://github.com/jutewei/JuPhotoBrowser.git"
   },
-  "resource_bundles": {
-    "JuPhotoResource": "Source/Resources/*"
-  },
   "subspecs": [
+    {
+      "name": "Resources",
+      "resource_bundles": {
+        "JuPhotoResource": "Source/Resources/*"
+      }
+    },
     {
       "name": "Core",
       "source_files": "Source/*.{h,m}",

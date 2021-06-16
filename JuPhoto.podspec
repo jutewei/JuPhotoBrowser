@@ -22,11 +22,13 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.source           = { :git => "https://github.com/jutewei/JuPhotoBrowser.git" }
 #  s.dependency  'JuLayout', :git=> 'https://github.com/jutewei/JuLayout.git', :branch => 'master', :subspecs => ['LayoutObjC']
-
-  
-  s.resource_bundle = {'JuPhotoResource'=>'Source/Resources/*'}
   s.requires_arc = true
   
+  s.subspec 'Resources' do |ss|
+  ss.resource_bundle = {'JuPhotoResource'=>'Source/Resources/*'}
+  end
+  
+ 
   s.subspec 'Core' do |ss|
        ss.source_files = 'Source/*.{h,m}'
        
