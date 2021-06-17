@@ -20,7 +20,8 @@ Pod::Spec.new do |s|
   }
   s.platform         = :ios, '9.0'
   s.requires_arc     = true
-  s.source           = { :git => "https://github.com/jutewei/JuPhotoBrowser.git" }
+  s.source           = { :git => "https://github.com/jutewei/JuPhotoBrowser.git" , :tag => s.version}
+  
   s.dependency  'JuLayout/LayoutObjC'
 
   s.requires_arc = true
