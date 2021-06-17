@@ -12,7 +12,7 @@
 @interface JuImagePickerController ()<UINavigationControllerDelegate,UIImagePickerControllerDelegate>{
      BOOL allowsEditing;//允许编辑
 }
-@property(nonatomic,copy)JuImageHandle ju_handle;
+@property(nonatomic,copy)JuPhotoHandle ju_handle;
 @end
 
 @implementation JuImagePickerController
@@ -21,7 +21,7 @@
 //    [super viewDidLoad];
 //    // Do any additional setup after loading the view.
 //}
--(instancetype)initImagePickType:(UIImagePickerControllerSourceType )sourceType allowsEditing:(BOOL)allowsEditing handle:(JuImageHandle)handle{
+-(instancetype)initImagePickType:(UIImagePickerControllerSourceType )sourceType allowsEditing:(BOOL)allowsEditing handle:(JuPhotoHandle)handle{
     self=[super init];
     if (self) {
         self.delegate = self;
@@ -37,7 +37,7 @@
     }
     return self;
 }
-+(instancetype)initImagePickType:(UIImagePickerControllerSourceType )sourceType allowsEditing:(BOOL)allowsEditing handle:(JuImageHandle)handle{
++(instancetype)initImagePickType:(UIImagePickerControllerSourceType )sourceType allowsEditing:(BOOL)allowsEditing handle:(JuPhotoHandle)handle{
     if (sourceType==UIImagePickerControllerSourceTypeCamera) {
         if (![self isCameraAvailable]){
             return nil;

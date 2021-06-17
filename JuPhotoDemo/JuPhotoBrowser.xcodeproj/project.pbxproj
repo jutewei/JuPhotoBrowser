@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		278AADC30EC745CEF715C1A7 /* libPods-JuPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 917FB8A6BE3664AFA815035C /* libPods-JuPhotoBrowser.a */; };
+		C4EB3EB0B7BFAB6E7B77E1BA /* libPods-JuPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD1DBF2239C16142B8CB072 /* libPods-JuPhotoBrowser.a */; };
 		EB2FF4681D925F0C009F1AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF4671D925F0C009F1AF4 /* main.m */; };
 		EB2FF46B1D925F0C009F1AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF46A1D925F0C009F1AF4 /* AppDelegate.m */; };
 		EB2FF46E1D925F0C009F1AF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF46D1D925F0C009F1AF4 /* ViewController.m */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		291D1B08A9A95DAA2B249CC3 /* Pods-JuPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuPhotoBrowser.release.xcconfig"; path = "Target Support Files/Pods-JuPhotoBrowser/Pods-JuPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		7DF4D45F6298AC43DB38BF34 /* Pods-JuPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuPhotoBrowser.debug.xcconfig"; path = "Target Support Files/Pods-JuPhotoBrowser/Pods-JuPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
-		917FB8A6BE3664AFA815035C /* libPods-JuPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JuPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD1DBF2239C16142B8CB072 /* libPods-JuPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JuPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2FF4631D925F0C009F1AF4 /* JuPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2FF4671D925F0C009F1AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB2FF4691D925F0C009F1AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB2FF47F1D925F47009F1AF4 /* Photos.framework in Frameworks */,
-				278AADC30EC745CEF715C1A7 /* libPods-JuPhotoBrowser.a in Frameworks */,
+				C4EB3EB0B7BFAB6E7B77E1BA /* libPods-JuPhotoBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				EB2FF47E1D925F47009F1AF4 /* Photos.framework */,
-				917FB8A6BE3664AFA815035C /* libPods-JuPhotoBrowser.a */,
+				8BD1DBF2239C16142B8CB072 /* libPods-JuPhotoBrowser.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 				EB2FF45F1D925F0C009F1AF4 /* Sources */,
 				EB2FF4601D925F0C009F1AF4 /* Frameworks */,
 				EB2FF4611D925F0C009F1AF4 /* Resources */,
-				E3A298CF65FD6AD8B6FFA18D /* [CP] Copy Pods Resources */,
+				0E8A86FA0BB625B55CE3D969 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E3A298CF65FD6AD8B6FFA18D /* [CP] Copy Pods Resources */ = {
+		0E8A86FA0BB625B55CE3D969 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

@@ -10,7 +10,7 @@
 #import "JuImagesCollectView.h"
 #import "JuLayoutFrame.h"
 #import "JuImageObject.h"
-#import "JuPhotoConfig.h"
+#import "JuDefine.h"
 @interface JuAlbumPreviewVC (){
     JuImagesCollectView *ju_imgCollectView;
     NSInteger currentNum;

@@ -12,9 +12,7 @@
 #import "JuAlbumPreviewVC.h"
 #import "JuPhotoGroupTVC.h"
 #import "JuPhotoAlert.h"
-
-
-//typedef void(^__nullable JuImageHandle)(id __nullable result);             //下步操作后有跟新数据
+typedef void(^__nullable JuImageHandle)(id  _Nullable image);             //下步操作后有跟新数据
 @protocol JUChoosePhotoDelegate;
 //PreviewPhotoDelegate
 @interface JuPhotoPickers : NSObject<UIActionSheetDelegate,UINavigationControllerDelegate, UIImagePickerControllerDelegate>{

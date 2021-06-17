@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(instancetype)initImagePickType:(UIImagePickerControllerSourceType )sourceType
                    allowsEditing:(BOOL)allowsEditing
-                          handle:(JuImageHandle)handle;
+                          handle:(JuPhotoHandle)handle;
 //照片库
 + (BOOL) isPhotoLibraryAvailable;
 @end

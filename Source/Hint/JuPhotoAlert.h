@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "JuPhotoConfig.h"
+//#import "JuPhotoConfig.h"
 //typedef void(^__nullable JuImageHandle)(id  _Nullable image);             //下步操作后有跟新数据
 
 NS_ASSUME_NONNULL_BEGIN

@@ -1,14 +1,16 @@
 workspace 'JuPhotoDemo.xcworkspace'
 
 # public specs
-# source 'https://github.com/Cocoapods/Specs.git'
+# source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '10.0' 
 inhibit_all_warnings!
-
+# use_frameworks!
+#use_modular_headers!
 target 'JuPhotoBrowser' do
-    pod 'JuPhoto', :path => '../'
-    pod 'JuLayout', :git=> 'https://github.com/jutewei/JuLayout.git', :branch => 'master', :subspecs => ['LayoutObjC']
+    pod 'JuPhoto', :path => '../' 
+    #pod 'JuLayout', :git=> 'https://github.com/jutewei/JuLayout.git', :branch => 'master', :subspecs => ['LayoutObjC']
+    #pod 'JuLayout'
 end
 
 

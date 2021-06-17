@@ -1,0 +1,6 @@
+module Pods_JuPhotoBrowser {
+  umbrella header "Pods-JuPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

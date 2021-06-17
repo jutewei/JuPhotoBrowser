@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = "1.0"
   s.summary          = "通用JuPhoto SDK"
   s.homepage         = " https://github.com/jutewei/JuPhotoBrowser"
-  s.author           = { "cmb" => "zhutianwei224@pingan.com.cn" }
+  s.author           = { "cmb" => "jutewei@qq.com" }
   s.license          = {
     :type => 'Copyright',
     :text => <<-LICENSE
@@ -21,33 +21,63 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '9.0'
   s.requires_arc     = true
   s.source           = { :git => "https://github.com/jutewei/JuPhotoBrowser.git" }
-#  s.dependency  'JuLayout', :git=> 'https://github.com/jutewei/JuLayout.git', :branch => 'master', :subspecs => ['LayoutObjC']
+  s.dependency  'JuLayout/LayoutObjC'
+
   s.requires_arc = true
+  s.static_framework = true
+  #自己的framework 后面是路径
+  #s.vendored_frameworks = ['Module/Vendors/*.framework']
+  #系统的framework
+  #s.frameworks = ['UIKit', 'MapKit']
+  #自己的.a 后面是路径
+  #s.vendored_library = 'Module/Classes/SDK/*.a'
+  #系统的.a
+  #s.libraries = ['xml2.2','sqlite3.0']
+  #s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'SECOND_MODULE=1'}
   
   s.subspec 'Resources' do |ss|
-  ss.resource_bundle = {'JuPhotoResource'=>'Source/Resources/*'}
+      ss.resource_bundle = {'JuPhotoResource'=>'Source/Resources/*'}
   end
   
  
-  s.subspec 'Core' do |ss|
-       ss.source_files = 'Source/*.{h,m}'
-       
-       ss.subspec 'Deal' do |n|
-          n.source_files = 'Source/Deal/*.{h,m}'
-          end
-
-       ss.subspec 'JuDocument' do |n|
-          n.source_files = 'Source/JuDocument/*.{h,m}'
-          end
-       ss.subspec 'JuPhotos' do |n|
-          n.source_files = 'Source/JuPhotos/*.{h,m}'
-          end
-       ss.subspec 'JuZoomImage' do |n|
-          n.source_files = 'Source/JuZoomImage/*.{h,m}'
-          end
-       
+# s.source_files = 'Source/*.{h,m}'
+ 
+ #s.dependency  'JuPhoto/Module'
+ s.subspec 'JuPicker' do |n|
+    n.source_files = 'Source/*.{h,m}'
+    n.dependency  'JuPhoto/JuHint'
+    n.dependency  'JuPhoto/JuDocument'
+    n.dependency  'JuPhoto/JuPhotos'
+    n.dependency  'JuPhoto/JuDeal'
+    n.dependency  'JuPhoto/JuZoomImage'
   end
   
+       s.subspec 'JuDeal' do |n|
+          n.source_files = 'Source/Deal/*.{h,m}'
+          n.dependency  'JuPhoto/JuHint'
+        end
+       
+    
+       s.subspec 'JuHint' do |n|
+          n.source_files = 'Source/Hint/*.{h,m}'
+        end
+       
+       s.subspec 'JuDocument' do |n|
+          n.source_files = 'Source/JuDocument/*.{h,m}'
+        end
+       
+       s.subspec 'JuPhotos' do |n|
+          n.source_files = 'Source/JuPhotos/*.{h,m}'
+          n.dependency  'JuPhoto/JuDeal'
+          n.dependency  'JuPhoto/JuHint'
+      end
+       
+       s.subspec 'JuZoomImage' do |n|
+          n.source_files = 'Source/JuZoomImage/*.{h,m}'
+          n.dependency  'JuPhoto/JuDeal'
+      end
+       
+    
 
   
 end

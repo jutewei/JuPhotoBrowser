@@ -9,9 +9,7 @@
 #import "UIImage+PhotoManage.h"
 #import "UIImage+Cropping.h"
 #import "JuPhotoAlert.h"
-#import "JUAssetManage.h"
-//#import "RHAssetsLibrary.h"
-//#import "JuAlertView.h"
+
 static NSString * const JuCollectionName = @"平安租赁";
 @implementation NSObject (PhotoManage)
 
@@ -30,9 +28,6 @@ static NSString * const JuCollectionName = @"平安租赁";
     if([self isKindOfClass:[PHAsset class]]){
         PHAsset *asset=(PHAsset *)self;
          size = CGSizeMake(asset.pixelWidth, asset.pixelHeight);
-        if (asset.isOriginal) {
-            size=CGSizeMake(1080, 1080);
-        }
     }
     [self juGetImageWithSize:size handle:imageHandle];
 }

@@ -20,6 +20,9 @@ typedef void(^JuEditFinish)(NSArray *arrList);//预览完成
 
 typedef CGRect (^JuHandle)(id result);//坐标回调
 
+#define juPhotoBundle(value) [NSString stringWithFormat:@"JuPhotoResource.bundle/%@",value]
+
+
 #define ju_dispatch_get_main_async(block)\
 if ([NSThread isMainThread]) {\
 block();\

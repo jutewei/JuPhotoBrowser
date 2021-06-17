@@ -1,1 +1,1 @@
-../../../../../Source/JuPhotoAlert.h
+../../../../../Source/Hint/JuPhotoAlert.h
