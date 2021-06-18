@@ -11,7 +11,7 @@
 #import "UIImage+PhotoManage.h"
 #import <Photos/Photos.h>
 #import "JuImagePickerController.h"
-#import "PADocumentPickerVC.h"
+#import "JuDocumentPickerVC.h"
 
 @interface JuPhotoPickers ()<JuPhotoDelegate,UINavigationControllerDelegate>{
     NSMutableArray *ju_mArrAsset;
@@ -102,7 +102,7 @@
         return;
     }
     if([buttonTitle isEqual:@"文件"]){
-        PADocumentPickerVC *vc=[PADocumentPickerVC initDocumentPickHandle:^(NSData * _Nullable data) {
+        JuDocumentPickerVC *vc=[JuDocumentPickerVC initDocumentPickHandle:^(NSData * _Nullable data) {
             
         }];
         [self juPresentViewController:vc];

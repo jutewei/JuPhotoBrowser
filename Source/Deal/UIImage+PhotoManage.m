@@ -1,6 +1,6 @@
 //
 //  NSObject+PhotoManage.m
-//  MTSkinPublic
+//  JuPhotoBrowser
 //
 //  Created by Juvid on 2016/11/18.
 //  Copyright © 2016年 Juvid(zhutianwei). All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  UIImage+Size.m
-//  MTSkinPublic
+//  JuPhotoBrowser
 //
 //  Created by Juvid on 2017/1/3.
 //  Copyright © 2017年 Juvid(zhutianwei). All rights reserved.

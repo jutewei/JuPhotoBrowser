@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JuPhoto"
-  s.version          = "1.0"
+  s.version          = "1.0.1"
   s.summary          = "通用JuPhoto SDK"
   s.homepage         = " https://github.com/jutewei/JuPhotoBrowser"
   s.author           = { "cmb" => "jutewei@qq.com" }

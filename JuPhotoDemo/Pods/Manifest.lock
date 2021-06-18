@@ -1,36 +1,36 @@
 PODS:
   - JuLayout/LayoutObjC (1.3)
-  - JuPhoto (1.0):
+  - JuPhoto (1.0.1):
     - JuLayout/LayoutObjC
-    - JuPhoto/JuDeal (= 1.0)
-    - JuPhoto/JuDocument (= 1.0)
-    - JuPhoto/JuHint (= 1.0)
-    - JuPhoto/JuPhotos (= 1.0)
-    - JuPhoto/JuPicker (= 1.0)
-    - JuPhoto/JuZoomImage (= 1.0)
-    - JuPhoto/Resources (= 1.0)
-  - JuPhoto/JuDeal (1.0):
+    - JuPhoto/JuDeal (= 1.0.1)
+    - JuPhoto/JuDocument (= 1.0.1)
+    - JuPhoto/JuHint (= 1.0.1)
+    - JuPhoto/JuPhotos (= 1.0.1)
+    - JuPhoto/JuPicker (= 1.0.1)
+    - JuPhoto/JuZoomImage (= 1.0.1)
+    - JuPhoto/Resources (= 1.0.1)
+  - JuPhoto/JuDeal (1.0.1):
     - JuLayout/LayoutObjC
     - JuPhoto/JuHint
-  - JuPhoto/JuDocument (1.0):
+  - JuPhoto/JuDocument (1.0.1):
     - JuLayout/LayoutObjC
-  - JuPhoto/JuHint (1.0):
+  - JuPhoto/JuHint (1.0.1):
     - JuLayout/LayoutObjC
-  - JuPhoto/JuPhotos (1.0):
+  - JuPhoto/JuPhotos (1.0.1):
     - JuLayout/LayoutObjC
     - JuPhoto/JuDeal
     - JuPhoto/JuHint
-  - JuPhoto/JuPicker (1.0):
+  - JuPhoto/JuPicker (1.0.1):
     - JuLayout/LayoutObjC
     - JuPhoto/JuDeal
     - JuPhoto/JuDocument
     - JuPhoto/JuHint
     - JuPhoto/JuPhotos
     - JuPhoto/JuZoomImage
-  - JuPhoto/JuZoomImage (1.0):
+  - JuPhoto/JuZoomImage (1.0.1):
     - JuLayout/LayoutObjC
     - JuPhoto/JuDeal
-  - JuPhoto/Resources (1.0):
+  - JuPhoto/Resources (1.0.1):
     - JuLayout/LayoutObjC
 
 DEPENDENCIES:
@@ -46,7 +46,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   JuLayout: 82d0fe76c33495a3dbbbed26bfda0f5aabf0e7a9
-  JuPhoto: 456c45065edae2f273eb1ca4af9f11997665fc27
+  JuPhoto: 467e7e7921c2b978603087460d34765a19aec9c5
 
 PODFILE CHECKSUM: 3be5e6f4fc739d25d5489da67e0673362a8c5107
 

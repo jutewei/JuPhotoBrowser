@@ -1,14 +1,14 @@
 //
 //  PADocument.m
-//  TestImage
+//  JuPhotoBrowser
 //
-//  Created by 朱天伟(平安租赁事业群(汽融商用车)信息科技部科技三团队) on 2021/5/26.
+//  Copyright © 2019 Juvid. All rights reserved.
 //
 
-#import "PADocument.h"
-#import "PADocumentPickerVC.h"
+#import "JuDocument.h"
+#import "JuDocumentPickerVC.h"
 
-@implementation PADocument
+@implementation JuDocument
 //RCT_EXPORT_MODULE(PADocument)
 //
 //// base64图片添加水印
@@ -21,7 +21,7 @@
 //}
 
 -(void)openDocument{
-    [PADocumentPickerVC initDocumentPickHandle:^(NSData * _Nullable data) {
+    [JuDocumentPickerVC initDocumentPickHandle:^(NSData * _Nullable data) {
         
     }];
 }

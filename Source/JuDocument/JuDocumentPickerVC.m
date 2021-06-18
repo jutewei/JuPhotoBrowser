@@ -1,28 +1,28 @@
 //
 //  JUDocumentPickerVC.m
-//  TestImage
+//  JuPhotoBrowser
 //
-//  Created by 朱天伟(平安租赁事业群(汽融商用车)信息科技部科技三团队) on 2021/5/19.
+//  Copyright © 2019 Juvid. All rights reserved.
 //
 
-#import "PADocumentPickerVC.h"
+#import "JuDocumentPickerVC.h"
 
-@interface PADocumentPickerVC ()<UIDocumentPickerDelegate>
-@property(nonatomic,copy)PADocumentHandle ju_handle;
+@interface JuDocumentPickerVC ()<UIDocumentPickerDelegate>
+@property(nonatomic,copy)JuDocumentHandle ju_handle;
 @end
 
-@implementation PADocumentPickerVC
+@implementation JuDocumentPickerVC
 
-+(instancetype)initDocumentPickHandle:(PADocumentHandle)handle{
++(instancetype)initDocumentPickHandle:(JuDocumentHandle)handle{
     NSArray *types  =@[@"com.adobe.pdf"];
-    PADocumentPickerVC *vc=[[PADocumentPickerVC alloc]initWithDocumentTypes:types inMode:UIDocumentPickerModeOpen];
+    JuDocumentPickerVC *vc=[[JuDocumentPickerVC alloc]initWithDocumentTypes:types inMode:UIDocumentPickerModeOpen];
     vc.modalPresentationStyle=UIModalPresentationFullScreen;
     vc.ju_handle = handle;
     return vc;
 }
 +(instancetype)initDocumentPickWtihVC:(UIViewController *)vc
-                               handle:(PADocumentHandle)handle{
-    PADocumentPickerVC *pickVc=[self initDocumentPickHandle:handle];
+                               handle:(JuDocumentHandle)handle{
+    JuDocumentPickerVC *pickVc=[self initDocumentPickHandle:handle];
     [vc presentViewController:pickVc animated:YES completion:nil];
     return pickVc;
 }

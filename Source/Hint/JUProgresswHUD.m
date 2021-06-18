@@ -1,6 +1,6 @@
 //
 //  MTHUDLoadView.m
-//  MTSkinPublic
+//  JuPhotoBrowser
 //
 //  Created by Juvid on 2019/6/20.
 //  Copyright © 2019 Juvid. All rights reserved.
